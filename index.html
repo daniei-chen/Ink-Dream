@@ -1,0 +1,2335 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+<meta name="color-scheme" content="dark">
+<title>梦之画境 · 九章百幕</title>
+<style>
+@font-face{
+  font-family:'Dream Serif';
+  font-style:normal; font-weight:300; font-display:swap;
+  src:url(data:font/woff2;base64,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) format('woff2');
+}
+</style>
+<style>
+:root{
+  --void:#02060a;
+  --ink:#ece9db;
+  --dim:rgba(236,233,219,.38);
+  --dim2:rgba(236,233,219,.16);
+  --gold:#c19b6a;
+  --serif:"Dream Serif","Songti SC","STSong","Kaiti SC","STKaiti","KaiTi","Noto Serif SC","Source Han Serif SC","SimSun",serif;
+  --sans:"Helvetica Neue",Inter,"PingFang SC","Microsoft YaHei",sans-serif;
+}
+*{ margin:0; padding:0; box-sizing:border-box; }
+html,body{
+  height:100%; width:100%; overflow:hidden;
+  background:var(--void); color:var(--ink);
+  font-family:var(--serif);
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  overscroll-behavior:none;
+}
+body{ cursor:default; }
+body.hidecursor{ cursor:none; }
+
+#dream{ position:fixed; inset:0; width:100%; height:100%; display:block; z-index:0; }
+
+/* ---------- 光晕帘 ---------- */
+#veil{
+  position:fixed; inset:0; pointer-events:none; z-index:2;
+  background:
+    radial-gradient(126% 92% at 50% 45%, rgba(0,0,0,0) 46%, rgba(1,4,6,.46) 100%),
+    linear-gradient(to bottom, rgba(1,4,6,.30) 0%, rgba(0,0,0,0) 16%, rgba(0,0,0,0) 82%, rgba(1,4,6,.34) 100%);
+}
+
+/* ---------- 题跋 ---------- */
+#acts{ position:fixed; inset:0; z-index:3; pointer-events:none; }
+.act{ position:absolute; inset:0; opacity:0; will-change:opacity; }
+.verse{
+  position:absolute;
+  right:clamp(20px, 5.4vw, 96px);
+  top:clamp(38px, 10.5vh, 130px);
+  display:flex; flex-direction:row-reverse; gap:1.42em;
+  user-select:none;
+}
+.verse p{
+  writing-mode:vertical-rl; text-orientation:upright;
+  font-size:clamp(13px, .70vw + 6.4px, 19px);
+  font-weight:300; letter-spacing:.40em; line-height:1.16;
+  color:rgba(236,233,219,.80);
+  text-shadow:0 0 18px rgba(150,180,175,.28), 0 0 46px rgba(120,150,150,.14);
+  transition:letter-spacing .6s ease;
+}
+
+/* ---------- 章 / 幕号 ---------- */
+#chapter{
+  position:fixed; left:clamp(22px, 5.4vw, 96px); top:clamp(30px, 9vh, 104px);
+  z-index:4; pointer-events:none;
+  display:flex; flex-direction:column; gap:.62em;
+  opacity:0; transition:opacity 1.6s ease;
+}
+#chapter .cn{
+  font-size:clamp(11px, .46vw + 5px, 14px);
+  letter-spacing:.44em; text-indent:.44em;
+  color:rgba(236,233,219,.52);
+  text-shadow:0 0 16px rgba(0,0,0,.7);
+}
+#chapter .en{
+  font-family:var(--sans);
+  font-size:8.5px; letter-spacing:.34em; text-transform:uppercase;
+  color:rgba(236,233,219,.20);
+}
+#chapter .rule{
+  width:34px; height:1px; margin-top:.3em;
+  background:linear-gradient(to right, rgba(193,155,106,.62), rgba(193,155,106,0));
+}
+
+#num{
+  position:fixed; right:clamp(20px, 5.4vw, 96px); bottom:clamp(58px, 6.6vh, 78px);
+  z-index:4; pointer-events:none;
+  font-family:var(--sans);
+  display:flex; align-items:center; gap:9px;
+  font-size:9.5px; letter-spacing:.26em;
+  color:rgba(236,233,219,.24);
+  opacity:0; transition:opacity 1.4s ease;
+}
+#num i{ display:block; width:1px; height:11px;
+  background:linear-gradient(to bottom, rgba(193,155,106,.5), rgba(193,155,106,0)); }
+
+/* ---------- 底部 ---------- */
+#hud{
+  position:fixed; left:0; right:0; bottom:0; z-index:5;
+  padding:0 clamp(20px, 5.4vw, 96px) clamp(20px, 3.6vh, 40px);
+  display:flex; align-items:center; gap:clamp(12px, 2vw, 26px);
+  opacity:0; transition:opacity 1.4s ease;
+}
+#hud.on{ opacity:1; }
+#bar{ position:relative; flex:1; height:16px; display:flex; align-items:center; cursor:pointer; }
+#bar .rail{ position:absolute; left:0; right:0; height:1px; background:rgba(236,233,219,.13); }
+#bar .mark{ position:absolute; left:0; height:1px; width:0%;
+  background:linear-gradient(to right, rgba(193,155,106,.30), rgba(236,233,219,.72)); }
+#bar .dot{
+  position:absolute; left:0; width:5px; height:5px; margin-left:-2.5px;
+  border-radius:50%; background:rgba(240,238,228,.88);
+  box-shadow:0 0 10px 2px rgba(190,215,205,.34);
+  transition:transform .3s ease;
+}
+#bar:hover .dot{ transform:scale(1.7); }
+#bar .tick{ position:absolute; top:-3px; width:1px; height:7px; background:rgba(236,233,219,.14); }
+
+#btn{
+  flex:none; width:26px; height:26px; position:relative; cursor:pointer;
+  opacity:.55; transition:opacity .35s ease;
+}
+#btn:hover{ opacity:.95; }
+#btn .pp{ position:absolute; inset:0; display:flex; align-items:center; justify-content:center; gap:3.5px; }
+#btn .pp span{ display:block; width:1.5px; height:9px; background:rgba(236,233,219,.9); }
+#btn .tri{
+  position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+  opacity:0; transition:opacity .3s ease;
+}
+#btn .tri i{
+  display:block; width:0; height:0; margin-left:2px;
+  border-left:8px solid rgba(236,233,219,.9);
+  border-top:5.5px solid transparent; border-bottom:5.5px solid transparent;
+}
+#btn.paused .pp{ opacity:0; }
+#btn.paused .tri{ opacity:1; }
+
+#snd{
+  flex:none; width:22px; height:22px; cursor:pointer;
+  display:flex; align-items:flex-end; justify-content:center; gap:2px;
+  opacity:.34; transition:opacity .4s ease;
+}
+#snd:hover{ opacity:.85; }
+#snd span{ display:block; width:1.5px; border-radius:1px; background:rgba(236,233,219,.92); }
+#snd span:nth-child(1){ height:6px; }
+#snd span:nth-child(2){ height:11px; }
+#snd span:nth-child(3){ height:7px; }
+#snd.on{ opacity:.72; }
+#snd.on span{ animation:sndbar 1.7s ease-in-out infinite; }
+#snd.on span:nth-child(2){ animation-delay:.22s; }
+#snd.on span:nth-child(3){ animation-delay:.44s; }
+@keyframes sndbar{ 0%,100%{ transform:scaleY(.5); } 50%{ transform:scaleY(1.3); } }
+
+#tc{
+  flex:none; font-family:var(--sans);
+  font-size:9.5px; letter-spacing:.16em; font-variant-numeric:tabular-nums;
+  color:rgba(236,233,219,.30);
+}
+
+/* ---------- 片头 ---------- */
+#intro{
+  position:fixed; inset:0; z-index:8;
+  display:flex; align-items:center; justify-content:center;
+  pointer-events:none;
+}
+#intro .wrap{
+  display:flex; flex-direction:row-reverse; gap:2.6em;
+  opacity:0; transform:translateY(10px);
+  transition:opacity 2.6s ease, transform 2.6s ease;
+}
+#intro.show .wrap{ opacity:1; transform:translateY(0); }
+#intro .t{
+  writing-mode:vertical-rl; text-orientation:upright;
+  font-size:clamp(24px, 3.4vw, 46px);
+  font-weight:300; letter-spacing:.52em;
+  color:rgba(236,233,219,.93);
+  text-shadow:0 0 34px rgba(140,175,170,.36), 0 0 80px rgba(110,145,150,.18);
+}
+#intro .s{
+  writing-mode:vertical-rl; text-orientation:upright;
+  align-self:flex-end;
+  font-size:clamp(9px, .5vw + 5px, 12px);
+  letter-spacing:.5em;
+  color:rgba(236,233,219,.34);
+  margin-bottom:.5em;
+}
+
+/* ---------- 片尾 ---------- */
+#outro{
+  position:fixed; inset:0; z-index:8;
+  display:flex; flex-direction:column; align-items:center; justify-content:center;
+  gap:24px; pointer-events:none;
+  opacity:0; transition:opacity 2.8s ease;
+}
+#outro.show{ opacity:1; pointer-events:auto; }
+#outro .t{
+  font-size:clamp(12px, .9vw + 6px, 17px);
+  letter-spacing:.62em; text-indent:.62em;
+  color:rgba(236,233,219,.62);
+}
+#outro .seal{
+  width:44px; height:44px; border:1px solid rgba(178,62,48,.62);
+  border-radius:2px; display:flex; align-items:center; justify-content:center;
+  font-size:20px; color:rgba(190,72,56,.88);
+  letter-spacing:0; text-indent:0;
+  box-shadow:0 0 24px rgba(178,62,48,.14) inset;
+}
+#outro .again{
+  margin-top:6px; font-family:var(--sans);
+  font-size:9.5px; letter-spacing:.32em; text-transform:uppercase;
+  color:rgba(236,233,219,.26); cursor:pointer;
+  transition:color .4s ease; pointer-events:auto;
+}
+#outro .again:hover{ color:rgba(236,233,219,.72); }
+
+/* ---------- 载入 ---------- */
+#boot{
+  position:fixed; inset:0; z-index:9; background:var(--void);
+  display:flex; align-items:center; justify-content:center;
+  transition:opacity 1.8s ease;
+}
+#boot.gone{ opacity:0; }
+#boot .d{
+  width:3px; height:3px; border-radius:50%;
+  background:rgba(236,233,219,.5);
+  animation:pulse 2.4s ease-in-out infinite;
+}
+@keyframes pulse{ 0%,100%{ opacity:.12; transform:scale(.7);} 50%{ opacity:.7; transform:scale(1.5);} }
+
+body.shot #boot{ display:none; }
+body.bare #hud, body.bare #chapter, body.bare #num, body.bare #veil, body.bare #acts{ display:none !important; }
+body.shot #intro, body.shot #outro{ display:none; }
+
+body.nogl #dream{ display:none; }
+body.nogl{ background:radial-gradient(120% 80% at 50% 30%, #0d1a20 0%, #050a0e 60%, #010305 100%); }
+
+/* 竖屏手机：题跋缩小，收进顶部 */
+@media (max-aspect-ratio: 3/4){
+  .verse{ right:auto; left:50%; transform:translateX(-50%); top:clamp(28px,6vh,64px); }
+  #chapter{ top:auto; bottom:clamp(96px, 15vh, 150px); }
+}
+</style>
+</head>
+<body>
+
+<canvas id="dream"></canvas>
+<div id="veil"></div>
+<div id="acts"></div>
+
+<div id="chapter">
+  <div class="cn"></div>
+  <div class="en"></div>
+  <div class="rule"></div>
+</div>
+
+<div id="num"><i></i><span></span></div>
+
+<div id="hud">
+  <div id="btn" class="paused"><div class="pp"><span></span><span></span></div><div class="tri"><i></i></div></div>
+  <div id="bar">
+    <div class="rail"></div>
+    <div class="mark"></div>
+    <div class="dot"></div>
+  </div>
+  <div id="tc">00:00</div>
+  <div id="snd" title="声音"><span></span><span></span><span></span></div>
+</div>
+
+<div id="intro">
+  <div class="wrap">
+    <div class="t">梦之画境</div>
+    <div class="s">九章 · 百十幕</div>
+  </div>
+</div>
+
+<div id="outro">
+  <div class="t">此卷终</div>
+  <div class="seal">梦</div>
+  <div class="again">再观一遍</div>
+</div>
+
+<div id="boot"><div class="d"></div></div>
+
+<audio id="bgm" loop preload="none" src="bgm.mp3" style="display:none"></audio>
+
+<script id="vert" type="x-shader/x-vertex">
+attribute vec2 a_pos;
+void main(){ gl_Position = vec4(a_pos, 0.0, 1.0); }
+</script>
+
+<script id="frag" type="x-shader/x-fragment">
+precision highp float;
+
+uniform vec2  u_res;
+uniform float u_time;
+
+/* ---- 相机 ---- */
+uniform float u_camX;
+uniform float u_horizon;
+uniform float u_zoom;
+uniform float u_rain;     /* 雨量 */
+uniform float u_wind;     /* 风：-1 到 1，带阵性 */
+uniform float u_pan;      /* 镜头水平摇移：整个视角一起动 */
+uniform float u_roll;     /* 极轻的画面倾斜，像手持 */
+
+/* ---- 天光 ---- */
+uniform vec3  u_skyZen;
+uniform vec3  u_skyMid;
+uniform vec3  u_skyHor;
+uniform vec3  u_sunCol;
+uniform float u_sunI;
+uniform vec3  u_ambCol;
+uniform float u_amb;
+uniform vec4  u_sun;      /* x, y, alt, r */
+uniform vec4  u_moon;     /* x, y, alt, r */
+uniform float u_moonI;
+uniform float u_star;
+
+/* ---- 天气 ---- */
+uniform float u_cloud;
+uniform float u_fog;
+uniform float u_fogY;
+
+/* ---- 山 ---- */
+uniform vec3  u_fogCol;
+uniform vec3  u_mtnCol;
+uniform float u_mtnAmp;
+uniform float u_mtnLift;
+
+/* ---- 水 ---- */
+uniform float u_water;
+uniform float u_waterY;
+
+/* ---- 外物 ---- */
+uniform float u_prop;
+uniform vec2  u_propPos;
+uniform float u_propS;
+uniform float u_propA;
+
+/* ---- 转场 / 后期 ---- */
+uniform float u_mist;
+uniform vec3  u_mistCol;
+uniform float u_vign;
+uniform float u_fade;
+
+const float PI  = 3.14159265359;
+const float TAU = 6.28318530718;
+
+/* ================= 基础 ================= */
+float hash21(vec2 p){
+  p = fract(p * vec2(233.34, 851.73));
+  p += dot(p, p + 23.45);
+  return fract(p.x * p.y);
+}
+float vnoise(vec2 p){
+  vec2 i = floor(p), f = fract(p);
+  vec2 u = f * f * (3.0 - 2.0 * f);
+  return mix(mix(hash21(i), hash21(i + vec2(1.0, 0.0)), u.x),
+             mix(hash21(i + vec2(0.0, 1.0)), hash21(i + vec2(1.0, 1.0)), u.x), u.y);
+}
+const mat2 ROT = mat2(0.80, 0.60, -0.60, 0.80);
+
+float fbm(vec2 p, int oct){
+  float v = 0.0, a = 0.5;
+  for(int i = 0; i < 6; i++){
+    if(i >= oct) break;
+    v += a * vnoise(p);
+    p = ROT * p * 2.07;
+    a *= 0.5;
+  }
+  return v;
+}
+/* 脊状噪声：天然出尖峰 */
+float rfbm(vec2 p, int oct){
+  float v = 0.0, a = 0.52;
+  for(int i = 0; i < 6; i++){
+    if(i >= oct) break;
+    float n = 1.0 - abs(vnoise(p) * 2.0 - 1.0);
+    v += a * n * n;
+    p = ROT * p * 2.11;
+    a *= 0.50;
+  }
+  return v;
+}
+vec3 toLin(vec3 c){ return pow(max(c, 0.0), vec3(2.2)); }
+vec3 filmic(vec3 c){ return 1.0 - exp(-max(c, 0.0)); }
+
+/* ================= 天空 ================= */
+vec3 skyAt(vec2 uv, float A){
+  float y = uv.y;
+  vec3 hor = toLin(u_skyHor);
+  vec3 mid = toLin(u_skyMid);
+  vec3 zen = toLin(u_skyZen);
+
+  vec3 c = mix(hor, mid, smoothstep(0.00, 0.42, y));
+  c = mix(c, zen, smoothstep(0.30, 1.02, y));
+
+  /* 地平线以下略暗、略暖（承接地气） */
+  c = mix(c, hor * 0.62, smoothstep(0.06, -0.16, y));
+
+  /* 太阳散射 */
+  if(u_sunI > 0.001){
+    vec2 sp = (uv - u_sun.xy) * vec2(A, 1.0);
+    float sd = length(sp);
+    float low = smoothstep(0.52, -0.06, abs(u_sun.z));
+    float scatter = exp(-sd * 3.30) * 0.52
+                  + exp(-sd * 2.30) * 0.10
+                  + exp(-sd * 0.62) * 0.016;
+    c += toLin(u_sunCol) * scatter * u_sunI * (0.14 + 0.72 * low);
+
+    /* 地平线暖带 */
+    float band = smoothstep(0.30, 0.0, abs(y - u_sun.y)) * exp(-sd * 1.55);
+    c += toLin(u_sunCol) * band * u_sunI * low * 0.105;
+
+    /* 霞：地平线上几条被压扁的暖色层，日出时才出来 */
+    float strat = sin(y * 31.0 + fbm(vec2(uv.x * 2.0, 3.0), 3) * 6.0);
+    strat = smoothstep(0.58, 1.0, strat);
+    strat *= exp(-abs(y - u_sun.y) * 9.0) * low * u_sunI;
+    c += toLin(u_sunCol) * strat * 0.055;
+  }
+  return c;
+}
+
+/* ================= 山 ================= */
+float mtnShape(float wx, float freq, float seed, float amp){
+  float u = wx * freq + seed;
+  float a = rfbm(vec2(u * 0.82, seed * 0.31), 4);
+  float b = rfbm(vec2(u * 2.24, seed * 0.73), 3);
+  float c = rfbm(vec2(u * 5.70, seed * 1.29), 2);
+
+  /* 重新标定：rfbm 实际落在 0.15~0.62，不归一化就是一坨平缓的丘 */
+  a = clamp((a - 0.150) / 0.330, 0.0, 1.0);
+  b = clamp((b - 0.190) / 0.320, 0.0, 1.0);
+  c = clamp((c - 0.230) / 0.300, 0.0, 1.0);
+
+  /* 大尺度决定"哪一带是山" */
+  float mass = rfbm(vec2(u * 0.26, seed * 0.13), 3);
+  mass = clamp((mass - 0.155) / 0.360, 0.0, 1.0);
+
+  /* 每座峰的陡度不一样 */
+  float sharp = 0.95 + 0.62 * fbm(vec2(u * 0.82, seed * 3.1), 2);
+
+  /* 主体是脊，脊上再长脊 */
+  float h = (pow(a, sharp) * 1.00
+          + pow(b, 2.05) * 0.26 * a
+          + pow(c, 2.70) * 0.085 * a) * (0.42 + 0.70 * mass);
+  return h * amp;
+}
+
+/* 一层山。返回该像素的山的混合量，并把颜色写进 col */
+vec4 mtnLayer(vec2 uv, float A, float par, float freq, float seed,
+              float amp, float base, float haze, float thick, float t){
+  /* 竖屏时横向视野放出去，山才不会压成一根针 */
+  float aspectFix = clamp(A / 1.78, 0.52, 1.18);
+  float wx = u_camX * par + (uv.x - 0.5) * aspectFix / u_zoom;
+  float h  = u_horizon + base + u_mtnLift + mtnShape(wx, freq, seed, amp) * u_mtnAmp;
+
+  /* 树线 / 碎石，让轮廓不像沙丘 */
+  float trees = fbm(vec2(wx * (24.0 + 20.0 * thick), seed * 2.0), 3) - 0.44;
+  h += trees * 0.0105 * thick;
+
+  /* 边界洇墨 */
+  float bleed = (fbm(vec2(wx * 26.0, seed), 3) - 0.5) * 0.0024;
+
+  float d  = h - uv.y + bleed;
+  float aa = 0.0016 + 0.0012 * thick;
+  float m  = smoothstep(-aa, aa, d);
+
+  /* 山体 */
+  vec3 sky_here = skyAt(vec2(uv.x, clamp(h + 0.03, 0.0, 1.0)), A);
+  float rock = fbm(vec2(wx * (9.0 + 14.0 * thick), (uv.y - u_horizon) * 8.0 + seed), 3);
+  float vert = fbm(vec2(wx * 34.0, (uv.y - u_horizon) * 1.6 + seed * 3.0), 2);
+  vec3 body  = toLin(u_mtnCol) * (0.44 + 0.92 * rock + 0.38 * vert * thick);
+
+  /* 大气透视：越远越像天 */
+  vec3 hazeCol = mix(sky_here, toLin(u_skyMid), 0.55) * 0.92;
+  vec3 mc = mix(body, hazeCol, haze * haze * 1.12);
+
+  /* 山脊轮廓光（背光时山脊被天光镶边） */
+  float rimW = 0.0026 + 0.0024 * thick;
+  float rim  = exp(-pow((uv.y - h) / rimW, 2.0));
+  vec3 rimC  = toLin(u_skyHor) * 0.140 + toLin(u_sunCol) * 0.046 * u_sunI;
+  rim *= 0.22 + 0.78 * exp(-abs(uv.x - u_sun.x) * 4.6);
+  mc += rimC * rim * (0.18 + 0.38 * (1.0 - haze));
+
+  /* 山脚沉入雾 */
+  float foot = smoothstep(h - 0.16, h, uv.y);
+  mc = mix(mc * 0.72, mc, foot);
+
+  return vec4(mc, m);
+}
+
+/* ================= 雨 ================= */
+float rainStreaks(vec2 uv, float A, float t){
+  float acc = 0.0;
+
+  /* 雨不是均匀铺满的：有的云段在下，有的云段没下 */
+  float gap = fbm(vec2(uv.x * 2.4, uv.y * 1.8 + t * 0.035), 3);
+  float sparse = smoothstep(0.26, 0.56, gap);
+
+  for(int k = 0; k < 2; k++){
+    float fk = float(k);
+    float sc = 30.0 + fk * 30.0;
+    float sp = 2.6 + fk * 1.4;
+    /* 风把雨丝吹斜 */
+    vec2 p = vec2(uv.x * A * sc + uv.y * 110.0 * (0.20 + fk * 0.09),
+                  uv.y * sc * 0.44 + t * sp * 3.6);
+    vec2 cell = floor(p);
+    float r = hash21(cell + fk * 19.7);
+    float thr = 0.915 - u_rain * 0.245 + fk * 0.030 + (1.0 - sparse) * 0.065;
+    if(r > thr){
+      vec2 f = fract(p);
+      float x = abs(f.x - 0.5);
+      float line = smoothstep(0.175, 0.0, x) * smoothstep(0.48, 0.02, abs(f.y - 0.5));
+      acc += line * (r - thr) / (1.0 - thr) * (0.90 - fk * 0.19);
+    }
+  }
+  return acc;
+}
+
+/* 水面雨点涟漪 */
+float rainRipples(vec2 uv, float A, float t){
+  vec2 p = vec2(uv.x * A * 21.0, uv.y * 25.0);
+  vec2 cell = floor(p);
+  vec2 f = fract(p) - 0.5;
+  float r = hash21(cell);
+  float ph = fract(t * 0.62 + r * 7.3);
+  float d = length(f * vec2(1.0, 1.35));
+  float ring = smoothstep(0.06, 0.0, abs(d - ph * 0.40));
+  return ring * (1.0 - ph) * step(0.52, r);
+}
+
+/* ================= 云 ================= */
+vec3 cloudsAt(vec2 uv, float A, float t, out float alpha){
+  alpha = 0.0;
+  if(u_cloud < 0.01) return vec3(0.0);
+
+  vec3 sum = vec3(0.0);
+  float wsum = 0.0;
+
+  /* 高层卷云 */
+  {
+    vec2 p = vec2((uv.x * A * 1.24 + u_camX * 0.42) * 1.10,
+                  (uv.y - 0.52) * 2.35);
+    p += fbm(p * 0.52 + 9.0, 3) * 0.42;
+    p.x += t * 0.0030 + u_wind * 0.010;
+    vec2 pc = p * 0.94;
+    float n  = fbm(pc, 4);
+    float n2 = fbm(pc + vec2(0.0, 0.085), 4);   /* 往上看一点＝云的上半 */
+    float cover = smoothstep(0.470, 0.665, n) * u_cloud;
+    cover *= smoothstep(u_horizon - 0.06, u_horizon + 0.30, uv.y);
+    cover *= smoothstep(1.06, 0.72, uv.y);
+
+    /* 侧光：朝太阳的一面亮 */
+    vec2 sp = (uv - u_sun.xy) * vec2(A, 1.0);
+    float lit = 1.0 - smoothstep(0.0, 0.62, length(sp - vec2(0.06, 0.02)));
+    vec3 cc = mix(toLin(u_skyMid) * 1.06, toLin(u_sunCol) * 1.50, lit * 0.86)
+            + toLin(u_ambCol) * u_amb * 0.13;
+    /* 云的暗底 */
+    cc *= 0.58 + 0.86 * smoothstep(0.470, 0.720, n2);
+    sum += cc * cover;
+    wsum += cover;
+  }
+
+  /* 低空云海（山腰） */
+  {
+    vec2 p = vec2((uv.x * A * 0.78 + u_camX * 0.86) * 1.34 + t * 0.0062 + u_wind * 0.014,
+                  (uv.y - u_fogY) * 5.2);
+    p += fbm(p * 0.62 + 3.0, 3) * 0.55;
+    float n = fbm(p * 1.34, 5);
+    float cover = smoothstep(0.438, 0.640, n) * u_cloud * 0.54;
+    cover *= smoothstep(-0.10, 0.14, uv.y - u_fogY);
+    cover *= smoothstep(0.26, 0.02, uv.y - u_fogY);
+    /* 云海不许漫进水里 */
+    cover *= smoothstep(u_waterY - 0.005, u_waterY + 0.075, uv.y);
+
+    vec3 cc = mix(toLin(u_skyHor) * 0.98, toLin(u_sunCol) * 1.22, 0.32 * u_sunI)
+            + toLin(u_ambCol) * u_amb * 0.09;
+    sum += cc * cover;
+    wsum += cover;
+  }
+
+  alpha = clamp(wsum, 0.0, 0.36);
+  return sum / max(wsum, 1e-4);
+}
+
+/* ================= 星 ================= */
+vec3 starsAt(vec2 uv, float A, float t){
+  if(u_star < 0.01) return vec3(0.0);
+
+  vec3 acc = vec3(0.0);
+
+  /* 银河 */
+  float band = exp(-pow((uv.y - (0.50 + (uv.x - 0.5) * 0.72)) / 0.215, 2.0));
+  float g = rfbm(vec2(uv.x * A * 2.9 + 4.0, uv.y * 3.4), 4);
+  acc += toLin(vec3(0.52, 0.60, 0.82)) * band * g * g * 0.078 * u_star;
+  float dust = rfbm(vec2(uv.x * A * 6.0, uv.y * 6.4 + 2.0), 3);
+  acc *= 0.55 + 0.75 * dust;
+
+  /* 亮星 */
+  vec2 sp = vec2(uv.x * A * 78.0, uv.y * 84.0);
+  vec2 cell = floor(sp);
+  float rnd = hash21(cell);
+  if(rnd > 0.9725){
+    vec2 off = fract(sp) - 0.5;
+    float tw = 0.42 + 0.58 * sin(t * 0.62 + rnd * 71.0);
+    float s = smoothstep(0.155, 0.0, length(off));
+    s *= pow(clamp((rnd - 0.9725) / 0.0275, 0.0, 1.0), 2.2) * 2.9;
+    s *= smoothstep(0.34, 0.90, uv.y) * tw * u_star;
+    vec3 sc = mix(vec3(0.78, 0.84, 0.90), vec3(0.94, 0.88, 0.74), hash21(cell + 4.0));
+    acc += toLin(sc) * s * 0.72;
+  }
+  /* 暗星 */
+  vec2 sp2 = vec2(uv.x * A * 132.0, uv.y * 143.0) + 17.0;
+  float r2 = hash21(floor(sp2));
+  if(r2 > 0.9905){
+    vec2 off = fract(sp2) - 0.5;
+    float s = smoothstep(0.13, 0.0, length(off));
+    s *= smoothstep(0.30, 0.88, uv.y) * u_star * 0.55;
+    acc += toLin(vec3(0.70, 0.78, 0.90)) * s;
+  }
+  return acc;
+}
+
+/* ================= 日月 ================= */
+vec3 sunDiscAt(vec2 uv, float A){
+  if(u_sunI < 0.001 || u_sun.z < -0.10) return vec3(0.0);
+  vec2 p = (uv - u_sun.xy) * vec2(A, 1.0);
+  float d = length(p);
+  float r = u_sun.w;
+
+  vec3 acc = vec3(0.0);
+
+  /* 光晕：紧贴日轮的一圈，加上出去很远的柔光 */
+  float glow = exp(-d * 30.0) * 0.50
+             + exp(-d * 9.2)  * 0.120
+             + exp(-d * 3.1)  * 0.020;
+  /* 贴着一圈日晕，低太阳角时最明显 */
+  float lowSun = smoothstep(0.50, 0.02, u_sun.z);
+  glow += exp(-pow((d - r * 1.55) / (r * 0.68), 2.0)) * (0.08 + 0.42 * lowSun);
+  acc += toLin(u_sunCol) * glow * u_sunI * (1.45 + 0.9 * lowSun);
+
+  float blur = 0.10 + 0.90 * u_rain;
+  float disc = 1.0 - smoothstep(r * (0.90 + 0.05 * blur), r * (1.02 + 0.85 * blur), d);
+  vec3 core = toLin(u_sunCol) * (2.30 + 1.6 * smoothstep(0.0, 0.10, u_sun.z));
+  core *= 1.0 - 0.85 * u_rain;
+  /* 边缘略暗，像隔着气 */
+  core *= 0.86 + 0.30 * smoothstep(r * 1.02, r * 0.55, d);
+  acc += core * disc * u_sunI;
+
+  return acc;
+}
+
+vec3 moonAt(vec2 uv, float A, float t){
+  if(u_moonI < 0.001 || u_moon.z < -0.06) return vec3(0.0);
+
+  vec2 p = (uv - u_moon.xy) * vec2(A, 1.0);
+  float d = length(p);
+  float r = u_moon.w;
+
+  vec3 acc = vec3(0.0);
+
+  /* 月华（先画，山会遮住它） */
+  float halo = exp(-d * 34.0) * 0.52
+             + exp(-d * 13.0) * 0.40
+             + exp(-d * 4.6)  * 0.030 * smoothstep(0.62, 0.06, d);
+  acc += toLin(vec3(0.775, 0.855, 0.960)) * halo * u_moonI;
+
+  /* 月盘 */
+  float disc = 1.0 - smoothstep(r * 0.935, r * 1.020, d);
+  if(disc > 0.001){
+    float mott = fbm(p * 11.0 + 4.0, 5);
+    float shade = 0.74 + 0.38 * smoothstep(0.26, 0.82, mott);
+    shade *= 1.0 - 0.14 * smoothstep(0.52, 1.0, d / max(r, 0.0001));
+    /* 月面附近的天更透 */
+    acc += toLin(vec3(0.938, 0.968, 1.000)) * shade * disc * 1.92 * u_moonI;
+  }
+
+  /* 月晕上的一圈薄雾 */
+  float ring = exp(-pow((d - r * 1.55) / (r * 0.55), 2.0)) * 0.035;
+  acc += toLin(vec3(0.72, 0.80, 0.90)) * ring * u_moonI;
+
+  return acc;
+}
+
+/* ================= 外物 ================= */
+void drawProp(vec2 uv, float A, float t, inout vec3 col, float inWater){
+  if(u_propA < 0.01 || u_prop < 0.5) return;
+
+  vec2 e = (uv - u_propPos) * vec2(A, 1.0) / max(u_propS, 0.001);
+  float a = u_propA;
+
+  if(u_prop < 1.5){
+    /* 一只鸟 */
+    vec2 q = e / 0.018;
+    float flap = 0.62 + 0.26 * sin(t * 2.2);
+    float d = abs(q.y - abs(q.x) * flap + 0.08 + q.x * q.x * 0.12);
+    float body = smoothstep(0.20, 0.0, d) * smoothstep(1.02, 0.62, abs(q.x));
+    body += smoothstep(0.20, 0.0, length(q * vec2(1.0, 2.7))) * 0.85;
+    col = mix(col, vec3(0.0), clamp(body, 0.0, 1.0) * 0.92 * a);
+
+  } else if(u_prop < 2.5){
+    /* 孤舟 */
+    vec2 q = e / 0.085;
+    float hull = 1.0 - smoothstep(0.70, 1.0, length(q * vec2(1.0, 3.8)));
+    float cab  = 1.0 - smoothstep(0.64, 1.0, length((q - vec2(0.02, 0.30)) * vec2(2.6, 2.6)));
+    float boat = clamp(hull + cab, 0.0, 1.0);
+    col = mix(col, vec3(0.0), boat * 0.95 * a);
+    col += toLin(vec3(1.0, 0.62, 0.26)) * exp(-length(e - vec2(0.035, 0.052)) * 880.0) * 0.62 * a;
+
+  } else if(u_prop < 3.5){
+    /* 雁阵 */
+    for(int i = 0; i < 7; i++){
+      float fi = float(i);
+      float row = floor(fi * 0.5);
+      vec2 off = vec2((fi - row * 2.0) * 0.052, -row * 0.030 + sin(fi * 1.9) * 0.008);
+      vec2 q = (e - off) / 0.0105;
+      float flap = 0.66 + 0.22 * sin(t * 2.6 + fi * 1.4);
+      float d = abs(q.y - abs(q.x) * flap + 0.09);
+      float body = smoothstep(0.21, 0.0, d) * smoothstep(1.0, 0.60, abs(q.x));
+      col = mix(col, vec3(0.0), clamp(body, 0.0, 1.0) * 0.88 * a);
+    }
+
+  } else if(u_prop < 4.5){
+    /* 松枝：从边上横过来，压在月亮边上 */
+    vec2 q = e;
+    float curve = q.x * q.x * 0.30;
+    float yy = q.y + curve - 0.016;
+    float th = 0.0062 + 0.0078 * smoothstep(0.70, 0.05, q.x);
+
+    float span = smoothstep(0.94, 0.22, q.x) * smoothstep(-0.06, 0.03, q.x);
+
+    float branch = (1.0 - smoothstep(th * 0.45, th, abs(yy))) * span;
+
+    /* 松针：枝两侧的细齿 */
+    float teeth = abs(fract(q.x * 30.0) - 0.5) * 2.0;
+    float nlen = 0.0040 + 0.0260 * teeth * smoothstep(0.80, 0.10, q.x);
+    float nd = abs(yy) - (th + nlen);
+    float needles = ((1.0 - smoothstep(0.0, 0.0020, nd)) - branch) * span;
+
+    float m = clamp(branch + needles * 0.92, 0.0, 1.0);
+    col = mix(col, vec3(0.0), m * 0.94 * a);
+
+  } else if(u_prop < 5.5){
+    /* 芦苇 */
+    for(int i = 0; i < 13; i++){
+      float fi = float(i);
+      float bx = (hash21(vec2(fi * 7.3, 3.1)) - 0.5) * 0.92;
+      float hgt = 0.085 + hash21(vec2(fi * 3.7, 9.2)) * 0.090;
+      float sway = sin(t * 0.72 + fi * 1.7) * 0.050 + u_wind * 0.085;
+      float x = bx + e.y * sway * 2.2;
+      float d = abs(e.x - x) / 0.006;
+      float stem = (1.0 - smoothstep(0.0, 1.0, d)) * smoothstep(hgt, hgt * 0.22, e.y)
+                 * step(e.y, hgt) * step(0.0, e.y);
+      /* 穗 */
+      float head = smoothstep(0.045, 0.0, length(vec2((e.x - x) * 1.2, (e.y - hgt) * 3.4)));
+      col = mix(col, vec3(0.0), clamp(stem * 0.72 + head * 0.55, 0.0, 1.0) * a);
+    }
+
+  } else if(u_prop < 6.5){
+    /* 远塔 */
+    vec2 q = e / 0.032;
+    float d = 0.0;
+    for(int i = 0; i < 5; i++){
+      float fi = float(i);
+      float w = 0.62 - fi * 0.085;
+      float y0 = fi * 0.52 - 0.10;
+      float tier = step(abs(q.x), w) * step(y0, q.y) * step(q.y, y0 + 0.40);
+      /* 檐口外挑 */
+      float eave = step(abs(q.x), w * 1.30) * step(y0 - 0.075, q.y) * step(q.y, y0);
+      d = max(d, tier * 0.90 + eave * 0.55);
+    }
+    float spire = step(abs(q.x), 0.045) * step(2.44, q.y) * step(q.y, 3.05);
+    d = max(d, spire);
+    col = mix(col, vec3(0.0), clamp(d, 0.0, 1.0) * 0.90 * a);
+
+  } else if(u_prop < 7.5){
+    /* 亭 */
+    vec2 q = e / 0.050;
+    float roof = step(abs(q.x), 1.05) * step(0.30, q.y) * step(q.y, 0.34 + (1.05 - abs(q.x)) * 0.62);
+    float body = step(abs(q.x), 0.62) * step(-0.05, q.y) * step(q.y, 0.30);
+    float post = (step(abs(abs(q.x) - 0.54), 0.055) + step(abs(q.x), 0.055)) * step(q.y, 0.30);
+    col = mix(col, vec3(0.0), clamp(roof + body * 0.55 + post * 0.62, 0.0, 1.0) * 0.88 * a);
+
+  } else if(u_prop < 8.5){
+    /* 萤火 */
+    for(int i = 0; i < 11; i++){
+      float fi = float(i);
+      vec2 base = vec2((hash21(vec2(fi * 2.3, 5.7)) - 0.5) * 2.3,
+                       (hash21(vec2(fi * 8.1, 1.9)) - 0.5) * 1.2);
+      vec2 pos = base + vec2(sin(t * 0.52 + fi * 2.1) * 0.14,
+                             cos(t * 0.44 + fi * 1.3) * 0.09);
+      float blink = pow(max(0.0, sin(t * 0.90 + fi * 2.7)), 3.0);
+      float d = length((e - pos) * vec2(1.0, 1.0));
+      float g = exp(-d * 210.0) * 0.85 + exp(-d * 58.0) * 0.11;
+      col += toLin(vec3(0.92, 1.0, 0.56)) * g * blink * a * 1.15;
+    }
+
+  } else {
+    /* 一个人：斗笠一横，身影一竖。没有头，没有脸，认得出来就行。 */
+    if(inWater > 0.5) return;
+
+    vec2 q = e;
+
+    /* 斗笠 */
+    float hat = 1.0 - smoothstep(0.76, 1.00,
+                length((q - vec2(0.0, 0.345)) * vec2(2.15, 13.0)));
+
+    /* 身影：上宽下窄 */
+    float bw = 0.125 + 0.135 * smoothstep(-0.92, 0.40, q.y);
+    float body = (1.0 - smoothstep(0.76, 1.02, abs(q.x) / max(bw, 0.001)))
+               * (1.0 - smoothstep(0.60, 0.72, abs(q.y + 0.34)));
+
+    float m = clamp(max(hat, body), 0.0, 1.0);
+
+    /* 墨不许齐边 */
+    m *= 0.70 + 0.48 * vnoise(q * 7.0 + vec2(11.0, 4.0));
+    m = clamp(m, 0.0, 1.0);
+
+    col = mix(col, vec3(0.0), m * 0.90 * a);
+  }
+}
+
+/* ================= 场景（不画水） ================= */
+vec3 sceneDry(vec2 uv, float t, float A, float noOrb){
+  vec3 col = skyAt(uv, A);
+
+  col += starsAt(uv, A, t);
+  if(noOrb < 0.5){
+    col += moonAt(uv, A, t);
+    col += sunDiscAt(uv, A);
+  }
+  float cAlpha = 0.0;
+  vec3 cCol = cloudsAt(uv, A, t, cAlpha);
+  col = mix(col, cCol * 1.03, cAlpha * 0.86);
+
+
+  /* 光柱 */
+  if(u_sunI > 0.01 && u_sun.z > -0.05){
+    vec2 sp = (uv - u_sun.xy) * vec2(A, 1.0);
+    float dist = length(sp);
+    float ang = atan(sp.y, sp.x);
+    float n = fbm(vec2(ang * 3.4 + t * 0.010, dist * 1.6 - t * 0.030), 4);
+    n = pow(clamp(n, 0.0, 1.0), 4.2);
+    float fall = exp(-dist * 2.35) * smoothstep(0.44, -0.02, abs(u_sun.z));
+    col += toLin(u_sunCol) * n * fall * u_sunI * (0.17 + 0.26 * smoothstep(0.30, 0.0, abs(u_sun.z)));
+  }
+
+  /* 山：远 → 近 */
+  vec4 L;
+
+  L = mtnLayer(uv, A, 0.22, 0.50, 11.3, 0.085, 0.052, 0.760, 0.09, t);
+  col = mix(col, L.rgb, L.a * 0.92);
+
+  L = mtnLayer(uv, A, 0.50, 0.92, 27.9, 0.130, 0.004, 0.360, 0.50, t);
+  col = mix(col, L.rgb, L.a * 0.96);
+
+  L = mtnLayer(uv, A, 1.00, 1.72, 45.1, 0.185, -0.040, 0.048, 1.00, t);
+  col = mix(col, L.rgb, L.a);
+
+  /* 雾 */
+  if(u_fog > 0.01){
+    vec2 p = vec2(uv.x * 2.06 + u_camX * 0.85, uv.y * 2.72);
+    p.x += t * 0.0055;
+    p.y -= t * 0.0016;
+    vec2 w = vec2(fbm(p * 0.68 + 17.0, 3) - 0.5,
+                  fbm(p * 0.68 + vec2(5.3, 9.1), 3) - 0.5);
+    vec2 q = p + w * 1.42;
+    float d = rfbm(q * 1.02, 5) * 0.88 + fbm(q * 0.44, 3) * 0.32;
+    float fd = smoothstep(0.29, 0.55, d);
+
+    float hh = uv.y - u_fogY;
+    float band = hh < 0.0 ? 1.0 : 0.018 + 0.982 * exp(-pow(hh * 11.5, 1.22));
+
+    float amt = fd * band * u_fog;
+    vec3 fc = toLin(u_fogCol);
+    fc += toLin(u_sunCol) * u_sunI * 0.020 * exp(-length((uv - u_sun.xy) * vec2(A, 1.0)) * 1.9);
+    col = mix(col, fc, amt * 0.66);
+  }
+
+  drawProp(uv, A, t, col, 0.0);
+
+  return col;
+}
+
+/* ================= 水 ================= */
+vec3 scene(vec2 uv, float t, float A, float refl){
+  bool hasWater = u_water > 0.5;
+  if(hasWater && uv.y < u_waterY && refl < 0.5){
+    float d  = u_waterY - uv.y;
+    float dn = clamp(d / max(u_waterY, 0.001), 0.0, 1.0);
+    float persp = -log(d + 0.010);
+
+    float warp = fbm(vec2(uv.x * 8.6, persp * 1.72 + t * 0.20), 3);
+    warp += u_rain * 0.62 * (fbm(vec2(uv.x * 19.0, persp * 7.0 - t * 1.6), 3) - 0.44);
+    float ph   = persp * 18.0 + warp * 24.0 - t * 1.02;
+    float w    = sin(ph) * 0.60 + sin(ph * 2.13 + 1.7) * 0.40;
+
+    float amp = 0.0018 + dn * 0.0300;
+    float xoff = (w + u_wind * 0.55) * amp * (0.60 + d * 11.0);
+
+    /* 反射：取水面上方的镜像 */
+    float ry = u_waterY + d * 2.35;
+    vec2 ruv = vec2(uv.x + xoff, clamp(ry, 0.0, 1.0));
+    vec3 reflCol = sceneDry(ruv, t, A, 1.0);
+
+    /* 银鳞 */
+    float cn1 = fbm(vec2(uv.x * 21.0, persp * 6.6 + t * 0.44), 3);
+    float cn2 = fbm(vec2(uv.x * 4.8 + 11.0, persp * 2.1 - t * 0.11), 3);
+    float crest = pow(max(0.0, sin(ph + 0.55 + cn1 * 3.0)), 8.0);
+    crest *= smoothstep(0.34, 0.66, cn2);
+    reflCol += toLin(vec3(0.190, 0.238, 0.268)) * crest * 0.40 * (1.0 - dn * 0.55);
+
+    float fres = 1.0 - smoothstep(0.018, u_waterY * 1.12, d);
+    fres = 0.24 + 0.76 * fres;
+
+    vec3 deep = toLin(vec3(0.0014, 0.0040, 0.0056));
+    vec3 col  = mix(deep, reflCol * 1.02, fres);
+
+    /* 月 / 日光路 */
+    float sr = u_moonI;
+    vec2 src = u_moon.xy;
+    vec3 tint = vec3(0.80, 0.875, 0.965);      /* 月：银白偏冷 */
+    if(u_sunI > sr){ sr = u_sunI; src = u_sun.xy; tint = u_sunCol; }
+
+    if(sr > 0.01){
+      float cx = src.x
+               + sin(d * 20.0 + t * 0.40) * 0.0034
+               + sin(d * 8.2 - t * 0.23) * 0.0078;
+      float mx = (uv.x - cx) * A;
+      float beamW = 0.030 + d * 0.255;
+      float beam = exp(-pow(mx / beamW, 2.0));
+      /* 水面把光切成一段一段 */
+      float beamN = fbm(vec2((uv.x - cx) * A * 4.6, d * 11.0 - t * 0.22), 3);
+      beam *= 0.26 + 1.05 * beamN;
+      float nearAtt = exp(-d * 2.7);
+      float beamGain = (u_sunI > u_moonI)
+                      ? (0.28 + 0.72 * smoothstep(0.50, 0.03, u_sun.z))
+                      : 1.0;
+      col += toLin(tint) * beam * nearAtt * (0.215 * sr * beamGain);
+
+      /* 碎金 */
+      vec2 gp = vec2(uv.x * A * 162.0, persp * 26.0);
+      vec2 gi = floor(gp);
+      float rnd = hash21(gi);
+      vec2 goff = vec2(hash21(gi + 3.1), hash21(gi + 7.9)) * 0.58 + 0.21;
+      vec2 gq = fract(gp) - goff;
+      gq.x *= 0.44;
+      float spark = smoothstep(0.23, 0.0, length(gq));
+      spark *= step(0.24, rnd) * (0.34 + 0.66 * sin(t * 1.55 + rnd * 63.0));
+      col += toLin(tint) * beam * nearAtt * spark * 1.05 * sr;
+    }
+
+    /* 雨点打在水面上 */
+    if(u_rain > 0.01){
+      float rp = rainRipples(uv, A, t);
+      col += toLin(vec3(0.40, 0.48, 0.56)) * rp * u_rain * (1.05 + 0.55 * u_moonI);
+    }
+
+    /* 水面浮雾 */
+    if(u_fog > 0.01){
+      vec2 p = vec2(uv.x * 2.6, d * 5.2 + t * 0.10);
+      float fd = rfbm(p * 1.2, 4);
+      float hf = smoothstep(0.0, 0.020, d) * smoothstep(u_waterY, u_waterY * 0.28, d);
+      col = mix(col, toLin(u_fogCol) * 0.92,
+                smoothstep(0.30, 0.62, fd) * hf * u_fog * 0.50);
+    }
+
+    /* 水线一线光 */
+    float hz = exp(-pow((d - 0.006) * 96.0, 2.0));
+    hz *= 0.28 + 0.72 * fbm(vec2(uv.x * 4.6, 2.0 + t * 0.05), 3);
+    col += toLin(mix(u_skyMid, u_sunCol, 0.20 + 0.55 * u_sunI)) * hz * (0.030 + u_sunI * 0.055);
+
+    /* 水面上也有东西：船、芦苇、萤火。岸上的人不在这里画。 */
+    drawProp(uv, A, t, col, 1.0);
+
+    return col;
+  }
+  return sceneDry(uv, t, A, 0.0);
+}
+
+/* ================= 主 ================= */
+void main(){
+  vec2 uv = gl_FragCoord.xy / u_res;
+  float A = u_res.x / u_res.y;
+  float t = u_time;
+
+  /* 镜头走起来：先摇，再轻轻侧一点。
+     摇是整幅画面一起平移（天空、日月、山、水全跟着），
+     平移产生的视差留给 u_camX —— 两者叠加才是"镜头在动"。 */
+  if(abs(u_roll) > 0.0001){
+    vec2 q = uv - 0.5;
+    float ca = cos(u_roll), sa = sin(u_roll);
+    uv = vec2(ca * q.x - sa * q.y, sa * q.x + ca * q.y) + 0.5;
+  }
+  uv.x += u_pan;
+
+  vec3 col = scene(uv, t, A, 0.0);
+
+  /* 雨丝：用屏幕坐标，不跟镜头摇 —— 雨是充满整个空间的 */
+  if(u_rain > 0.01){
+    vec2 suv = gl_FragCoord.xy / u_res;
+    float rs = rainStreaks(suv, A, t);
+    vec3 rainCol = mix(toLin(vec3(0.62, 0.70, 0.80)), toLin(vec3(0.82, 0.86, 0.90)), 1.0 - u_amb);
+    col += rainCol * rs * u_rain * (0.55 + 0.45 * u_rain);
+  }
+
+  /* 雾场（章节转场） */
+  col = mix(col, toLin(u_mistCol), u_mist * 0.97);
+
+  /* 暗角按屏幕算，不跟着画面跑 */
+  vec2 vq = (gl_FragCoord.xy / u_res - 0.5) * vec2(A, 1.0);
+  col *= clamp(1.0 - dot(vq, vq) * 0.42 * u_vign, 0.0, 1.0);
+
+  /* 雨幕：把整幅压薄一层，雨天才真的"看不远" */
+  if(u_rain > 0.01){
+    col = mix(col, toLin(vec3(0.34, 0.39, 0.46)) * 0.34, u_rain * 0.22);
+  }
+
+  /* 呼吸 */
+  col *= 1.0 + 0.014 * sin(t * 0.27 - 1.2);
+
+  /* 宣纸 */
+  vec2 fc = gl_FragCoord.xy;
+  float paper = fbm(fc * 0.40, 4);
+  float fiber = vnoise(vec2(fc.x * 0.92, fc.y * 0.10)) * 0.5
+              + vnoise(vec2(fc.x * 0.09, fc.y * 0.86)) * 0.5;
+  col *= 0.964 + 0.052 * paper + 0.021 * fiber;
+
+  col = max(col - 0.00080, 0.0);
+
+  col = filmic(col);
+  col = pow(clamp(col, 0.0, 1.0), vec3(1.0 / 2.2));
+  col = mix(col, col * col * (3.0 - 2.0 * col), 0.32);
+
+  /* 黑场 */
+  col *= (1.0 - u_fade);
+
+  col += (hash21(fc + fract(t) * 371.0) - 0.5) * 0.015;
+  col.r *= 0.994;
+  col.b *= 1.006;
+
+  gl_FragColor = vec4(clamp(col, 0.0, 1.0), 1.0);
+}
+</script>
+
+<script>
+(function(){
+"use strict";
+
+/* ============================================================
+   梦之画境 · 九章百十幕
+   ------------------------------------------------------------
+   一条连续的光：日落后入夜 → 月升 → 午夜 → 将晓 → 月落日出
+   → 晨 → 午 → 暮 → 入夜。镜头是一条滑轨，光是一条曲线。
+   ============================================================ */
+
+var TAU = Math.PI * 2;
+var clamp = function(v,a,b){ return v < a ? a : (v > b ? b : v); };
+var lerp  = function(a,b,f){ return a + (b-a)*f; };
+var ease  = function(f){ return f*f*(3-2*f); };
+var smoothstep = function(a,b,x){ var t = clamp((x-a)/(b-a),0,1); return t*t*(3-2*t); };
+
+/* ---------------- 诗：一百一十句，一气贯下 ---------------- */
+var V = [
+["天把最后一笔","收进袖子里","只剩墨"],
+["墨还没有干","在纸上","慢慢地晕开"],
+["晕开的地方","浮起一线白","是月亮"],
+["月亮很薄","薄得像","还没想好要不要圆"],
+["它先照见山","再照见水","最后照见我"],
+["我没有躲","我怕一走","它就不见了"],
+["山也不动","它说","我在这里已经很久"],
+["很久是多久","久到","没有人问"],
+["于是我们都沉默","让月亮","自己做决定"],
+["它决定","把光借给水","把黑留给自己"],
+["水接住了","并且认真地","站了一整夜"],
+["站直的水","叫不来风","只叫来雾"],
+["雾来了","它不敲门","它从水里长出来"],
+["雾知道水底的地址","它去过","它说那里很黑"],
+["我问它","黑得下不下一轮月","它说够了"],
+["于是水里","就多了一个月亮","比我看见的真"],
+["真的那个","在岸上","有点孤单"],
+["它低头","跟水里那个","打了个招呼"],
+["水里的没有回答","它怕一开口","就散了"],
+["原来是沉默的人","先老"],
+["我数了数","一共两轮月","和一双眼睛"],
+["眼睛是我自己的","我借给夜色","还没还"],
+["夜里借东西","从来没有借条","也没有人催"],
+["所以我不急着还","我把它","留给下一个走夜路的人"],
+["那个人还没来","雾先替他","站了一会儿"],
+["站久了","雾也累了","它躺下来"],
+["躺下来的雾","铺了半座山","山没有抱怨"],
+["山说","你压着我","我正好歇一歇"],
+["它们就这样","一个压一个","谁也不起来"],
+["我数它们的呼吸","一二三","数到四就乱了"],
+["乱了也好","乱了","才像活着"],
+["远处的塔","只露出一个尖","像谁举着手指"],
+["它在指什么","山那边","还是更远"],
+["更远的地方","雾也不肯说"],
+["雾只知道近的","它知道每一块石头的名字"],
+["它叫它们","小石头","更小的石头"],
+["石头不答应","石头在我们来之前","就答应过了"],
+["答应给什么","给时间","当坐的地方"],
+["时间坐下来","就不走了","它也觉得这里好"],
+["好到","连风都放轻了脚"],
+["风轻了以后","黑就浓了","浓到会滴水"],
+["我伸手","摸到的是黑","不是我的手"],
+["手在黑里","变成别人的","我不敢动"],
+["不敢动的时候","就看见星星"],
+["第一颗很小","小得像弄错了"],
+["第二颗也小","第三颗不客气了","它亮"],
+["后来它们商量好了","一起亮","把黑顶回去"],
+["黑顶不住","就往上退","退成了天"],
+["天成了以后","星星就开始讲规矩"],
+["规矩是","谁也不许先走"],
+["所以它们都在","一直到现在"],
+["只有一颗","偷偷挪了挪","它想去水那边"],
+["水那边","开始不是黑的了","是很深的蓝"],
+["蓝得很客气","一点一点","把黑扶起来"],
+["黑站起来","抖了抖","掉下几颗星"],
+["星落进水里","水没有醒","它还在做梦"],
+["梦里的水","比醒着的时候","更亮"],
+["亮到能看见","山的背面","一直没给人看过"],
+["山的背面","什么也没有","只有更多的山"],
+["山是藏不住事的","它只是不说"],
+["不说的时候","月亮往下走","走得很慢"],
+["它舍不得","舍不得的不是天","是水"],
+["水也知道","所以水一直","没有把它的影子还回去"],
+["还回去","月亮就真的","只是一个石头了"],
+["就在这时候","东边裂了一道缝"],
+["缝里没有光","先有的是颜色"],
+["一种说不出的红","像谁忍了很久","终于咳出来"],
+["红下面","是橘","橘下面是金子"],
+["金子不声不响","把云烫了一下","云就卷了边"],
+["云卷边的时候","山也亮了半边脸"],
+["它眯着眼","不太习惯","被人看见"],
+["太阳出来的时候","没有声音","它一直是这样"],
+["我一直以为","它出来会响","像开门"],
+["没有门","它就是","慢慢地把天举高"],
+["举高一点","影子就短一点"],
+["影子短了","我才发现","我站的地方很宽"],
+["宽得可以","放下昨天","所有没说完的话"],
+["我没有放下","我把它们","收进口袋"],
+["早上","山是新的","它自己都不认识"],
+["它照水","照了半天","才认出自己"],
+["认出来以后","它有点不好意思","把雾拉过来挡着"],
+["雾挡不住","光太多","挡了这边那边亮"],
+["后来雾就不挡了","它去低处","躺成一条河"],
+["那条河不会流","它只是","看起来像要流"],
+["鸟从上面过","叫了一声","河抖了一下"],
+["抖一下","就是它最大的动作"],
+["我看了很久","看出一条道理"],
+["不动的东西","也有它的忙"],
+["它忙着","把自己","一直放在那里"],
+["它就那么待着","等谁来","等谁走了"],
+["到了中午","一切都太清楚"],
+["清楚得","没有地方放梦"],
+["我只好把梦","暂时挂在树上"],
+["树上有一个","昨天留下的空枝"],
+["空枝不挑","它接过梦","就垂下来一点"],
+["风来看了一眼","没有动它","风也累了"],
+["水在下面","把天完整地","抄了一遍"],
+["抄得很像","只有一个地方不对"],
+["它把太阳","抄得比真的","温柔"],
+["真的太阳","在头上","不太高兴"],
+["不高兴也没用","水已经抄完了","还签了名"],
+["签名是","一圈一圈的波纹"],
+["下午过得很快","像有人","在后面推"],
+["推到西边","光就开始收摊"],
+["它收得很慢","一件一件","叠好"],
+["先收金子","再收橘","最后收那点红"],
+["红收走的时候","天叹了一口气"],
+["叹出来的气","就是雾"],
+["雾又回来了","跟早上那场","是同一场吗"],
+["我没有问","我坐下来","等下一次月出"]
+];
+
+/* ---------------- 天光表 ----------------
+   dayT: 0 午夜 · 0.25 日出 · 0.5 正午 · 0.75 日落
+   [dayT, zen, mid, hor, sunCol, sunI, ambCol, amb, mtnCol, star]
+   颜色一律 sRGB，shader 内 toLin。                                 */
+var LIGHT = [
+[0.00,[0.020,0.030,0.058],[0.032,0.048,0.082],[0.070,0.090,0.116],[0.50,0.58,0.70],0.00,[0.26,0.34,0.42],0.26,[0.0065,0.0090,0.0140],1.00],
+[0.05,[0.022,0.032,0.060],[0.036,0.052,0.088],[0.078,0.098,0.126],[0.52,0.60,0.72],0.00,[0.28,0.36,0.44],0.27,[0.0072,0.0098,0.0150],0.98],
+[0.12,[0.030,0.044,0.080],[0.052,0.070,0.108],[0.130,0.132,0.152],[0.70,0.62,0.62],0.02,[0.32,0.38,0.46],0.30,[0.0090,0.0120,0.0180],0.86],
+[0.17,[0.042,0.060,0.104],[0.078,0.098,0.140],[0.196,0.180,0.192],[0.86,0.64,0.54],0.08,[0.38,0.42,0.50],0.36,[0.0120,0.0150,0.0220],0.64],
+[0.21,[0.058,0.080,0.132],[0.130,0.140,0.176],[0.470,0.280,0.212],[0.98,0.64,0.44],0.26,[0.46,0.48,0.54],0.44,[0.0170,0.0195,0.0255],0.40],
+[0.24,[0.050,0.076,0.156],[0.146,0.162,0.210],[0.740,0.418,0.248],[1.00,0.66,0.40],0.54,[0.54,0.54,0.57],0.53,[0.0225,0.0240,0.0290],0.24],
+[0.26,[0.060,0.090,0.174],[0.178,0.194,0.240],[0.860,0.558,0.318],[1.00,0.70,0.42],0.70,[0.58,0.58,0.60],0.58,[0.0260,0.0270,0.0320],0.16],
+[0.30,[0.094,0.136,0.214],[0.254,0.284,0.328],[0.760,0.660,0.560],[1.00,0.80,0.54],0.90,[0.62,0.64,0.66],0.68,[0.0300,0.0320,0.0365],0.05],
+[0.36,[0.180,0.226,0.296],[0.430,0.456,0.480],[0.810,0.780,0.730],[1.00,0.90,0.74],1.00,[0.68,0.72,0.76],0.78,[0.0350,0.0375,0.0420],0.00],
+[0.45,[0.226,0.278,0.352],[0.516,0.556,0.588],[0.862,0.856,0.834],[1.00,0.96,0.88],1.00,[0.74,0.78,0.82],0.84,[0.0390,0.0415,0.0460],0.00],
+[0.50,[0.238,0.292,0.368],[0.540,0.580,0.612],[0.880,0.872,0.850],[1.00,0.98,0.92],1.00,[0.77,0.81,0.85],0.87,[0.0410,0.0435,0.0480],0.00],
+[0.60,[0.230,0.288,0.368],[0.520,0.560,0.590],[0.870,0.835,0.790],[1.00,0.94,0.80],1.00,[0.75,0.78,0.82],0.84,[0.0395,0.0420,0.0465],0.00],
+[0.68,[0.196,0.248,0.328],[0.452,0.470,0.500],[0.845,0.750,0.660],[1.00,0.84,0.60],0.98,[0.70,0.71,0.74],0.78,[0.0350,0.0370,0.0415],0.00],
+[0.72,[0.166,0.212,0.290],[0.390,0.398,0.430],[0.830,0.672,0.540],[1.00,0.74,0.46],0.92,[0.64,0.63,0.65],0.70,[0.0300,0.0320,0.0365],0.02],
+[0.75,[0.098,0.140,0.238],[0.252,0.288,0.372],[0.800,0.548,0.396],[1.00,0.62,0.36],0.78,[0.58,0.55,0.55],0.60,[0.0250,0.0265,0.0310],0.10],
+[0.79,[0.068,0.094,0.166],[0.148,0.172,0.238],[0.400,0.286,0.258],[0.96,0.58,0.36],0.085,[0.44,0.44,0.50],0.28,[0.0165,0.0185,0.0240],0.38],
+[0.84,[0.050,0.068,0.116],[0.096,0.114,0.156],[0.216,0.196,0.204],[0.74,0.58,0.60],0.012,[0.34,0.39,0.46],0.20,[0.0110,0.0140,0.0195],0.68],
+[0.90,[0.030,0.043,0.080],[0.050,0.070,0.110],[0.118,0.134,0.160],[0.56,0.60,0.70],0.00,[0.29,0.37,0.45],0.19,[0.0080,0.0108,0.0162],0.88],
+[0.96,[0.022,0.033,0.063],[0.036,0.053,0.089],[0.080,0.100,0.126],[0.51,0.59,0.71],0.00,[0.27,0.35,0.43],0.17,[0.0068,0.0094,0.0146],0.98],
+[1.00,[0.020,0.030,0.058],[0.032,0.048,0.082],[0.070,0.090,0.116],[0.50,0.58,0.70],0.00,[0.26,0.34,0.42],0.16,[0.0065,0.0090,0.0140],1.00],
+[1.05,[0.026,0.038,0.070],[0.044,0.062,0.102],[0.104,0.126,0.158],[0.52,0.60,0.72],0.00,[0.28,0.36,0.44],0.17,[0.0072,0.0098,0.0150],0.98],
+[1.12,[0.034,0.050,0.092],[0.066,0.088,0.134],[0.196,0.202,0.238],[0.70,0.62,0.62],0.02,[0.32,0.38,0.46],0.20,[0.0090,0.0120,0.0180],0.86],
+[1.17,[0.050,0.072,0.124],[0.098,0.124,0.176],[0.280,0.264,0.292],[0.86,0.64,0.54],0.08,[0.38,0.42,0.50],0.25,[0.0120,0.0150,0.0220],0.64],
+[1.21,[0.058,0.080,0.132],[0.130,0.140,0.176],[0.470,0.280,0.212],[0.98,0.64,0.44],0.26,[0.46,0.48,0.54],0.44,[0.0170,0.0195,0.0255],0.40],
+[1.24,[0.050,0.076,0.156],[0.146,0.162,0.210],[0.740,0.418,0.248],[1.00,0.66,0.40],0.54,[0.54,0.54,0.57],0.53,[0.0225,0.0240,0.0290],0.24],
+[1.26,[0.060,0.090,0.174],[0.178,0.194,0.240],[0.860,0.558,0.318],[1.00,0.70,0.42],0.70,[0.58,0.58,0.60],0.58,[0.0260,0.0270,0.0320],0.16],
+[1.30,[0.094,0.136,0.214],[0.254,0.284,0.328],[0.760,0.660,0.560],[1.00,0.80,0.54],0.90,[0.62,0.64,0.66],0.68,[0.0300,0.0320,0.0365],0.05],
+[1.36,[0.180,0.226,0.296],[0.430,0.456,0.480],[0.810,0.780,0.730],[1.00,0.90,0.74],1.00,[0.68,0.72,0.76],0.78,[0.0350,0.0375,0.0420],0.00],
+[1.45,[0.226,0.278,0.352],[0.516,0.556,0.588],[0.862,0.856,0.834],[1.00,0.96,0.88],1.00,[0.74,0.78,0.82],0.84,[0.0390,0.0415,0.0460],0.00],
+[1.50,[0.238,0.292,0.368],[0.540,0.580,0.612],[0.880,0.872,0.850],[1.00,0.98,0.92],1.00,[0.77,0.81,0.85],0.87,[0.0410,0.0435,0.0480],0.00],
+[1.60,[0.230,0.288,0.368],[0.520,0.560,0.590],[0.870,0.835,0.790],[1.00,0.94,0.80],1.00,[0.75,0.78,0.82],0.84,[0.0395,0.0420,0.0465],0.00],
+[1.68,[0.196,0.248,0.328],[0.452,0.470,0.500],[0.845,0.750,0.660],[1.00,0.84,0.60],0.98,[0.70,0.71,0.74],0.78,[0.0350,0.0370,0.0415],0.00],
+[1.72,[0.166,0.212,0.290],[0.390,0.398,0.430],[0.830,0.672,0.540],[1.00,0.74,0.46],0.92,[0.64,0.63,0.65],0.70,[0.0300,0.0320,0.0365],0.02],
+[1.75,[0.098,0.140,0.238],[0.252,0.288,0.372],[0.800,0.548,0.396],[1.00,0.62,0.36],0.78,[0.58,0.55,0.55],0.60,[0.0250,0.0265,0.0310],0.10],
+[1.79,[0.068,0.094,0.166],[0.148,0.172,0.238],[0.400,0.286,0.258],[0.96,0.58,0.36],0.085,[0.44,0.44,0.50],0.28,[0.0165,0.0185,0.0240],0.38],
+[1.84,[0.050,0.068,0.116],[0.096,0.114,0.156],[0.216,0.196,0.204],[0.74,0.58,0.60],0.012,[0.34,0.39,0.46],0.20,[0.0110,0.0140,0.0195],0.68]
+];
+
+/* ---------------- 分镜 ----------------
+   d 时长 / t dayT / x 相机横移 / h 地平线 / z 变焦
+   c 云 / f 雾 / w 水 / p 外物                                  */
+var SHOTS = [];
+function S(d,t,x,h,z,c,f,w,p){ SHOTS.push({d:d,t:t,x:x,h:h,z:z,c:c,f:f,w:(w===undefined?1:w),p:p||null}); }
+
+/* 一 · 夜起  1-14 */
+S(3.8,0.780,0.194,0.345,0.998,0.30,0.54,1,null);
+S(3.4,0.786,0.237,0.353,1.015,0.29,0.52,1,null);
+S(3.6,0.793,0.270,0.360,1.020,0.27,0.50,1,null);
+S(3.2,0.799,0.291,0.363,1.014,0.26,0.48,1,null);
+S(3.6,0.805,0.300,0.362,0.998,0.26,0.46,1,"person");
+S(3.4,0.812,0.297,0.357,0.972,0.24,0.50,1,"boat");
+S(3.2,0.818,0.278,0.349,0.941,0.23,0.48,1,null);
+S(3.6,0.824,0.244,0.341,0.907,0.24,0.52,1,null);
+S(3.0,0.831,0.194,0.333,0.875,0.21,0.44,1,null);
+S(3.8,0.837,0.128,0.328,0.848,0.23,0.50,1,"boat");
+S(3.2,0.843,0.051,0.327,0.829,0.23,0.48,1,null);
+S(3.6,0.850,-0.032,0.330,0.820,0.24,0.54,1,null);
+S(3.4,0.856,-0.114,0.337,0.823,0.23,0.52,1,null);
+S(3.2,0.862,-0.187,0.345,0.837,0.23,0.52,1,null);
+
+/* 二 · 水深  15-28 */
+S(3.6,0.868,-0.173,0.531,1.215,0.23,0.54,1,null);
+S(3.4,0.874,-0.208,0.542,1.220,0.21,0.58,1,null);
+S(3.2,0.880,-0.235,0.545,1.209,0.21,0.56,1,null);
+S(3.6,0.886,-0.252,0.538,1.183,0.20,0.60,1,null);
+S(3.4,0.891,-0.260,0.524,1.146,0.21,0.62,1,null);
+S(3.2,0.897,-0.255,0.506,1.101,0.20,0.56,1,"reeds");
+S(3.6,0.903,-0.237,0.487,1.054,0.21,0.52,1,null);
+S(3.2,0.909,-0.203,0.585,2.900,0.20,0.58,1,null);
+S(3.4,0.915,-0.154,0.465,0.973,0.20,0.60,1,null);
+S(3.6,0.921,-0.091,0.467,0.949,0.21,0.54,1,"person");
+S(3.2,0.926,-0.020,0.478,0.940,0.21,0.62,1,"boat");
+S(3.4,0.932,0.053,0.494,0.947,0.23,0.56,1,null);
+S(3.6,0.938,0.120,0.514,0.968,0.23,0.50,1,"pavilion");
+S(3.2,0.944,0.175,0.531,1.003,0.23,0.54,1,null);
+
+/* 三 · 雾生  29-40 */
+S(3.4,0.950,0.164,0.416,1.378,0.26,0.60,1,null);
+S(3.2,0.955,0.196,0.414,1.353,0.27,0.64,1,null);
+S(3.6,0.959,0.223,0.404,1.300,0.29,0.66,1,null);
+S(3.4,0.964,0.244,0.389,1.228,0.26,0.62,1,"pagoda");
+S(3.2,0.968,0.256,0.374,1.149,0.24,0.58,1,null);
+S(3.6,0.973,0.253,0.363,1.074,0.23,0.56,1,null);
+S(3.0,0.977,0.232,0.360,1.016,0.24,0.60,1,"geese");
+S(3.4,0.982,0.190,0.366,0.985,0.23,0.56,1,null);
+S(3.2,0.986,0.131,0.379,0.983,0.21,0.54,1,null);
+S(3.6,0.991,0.063,0.395,1.013,0.20,0.50,0,"pavilion");
+S(3.4,0.995,-0.004,0.409,1.070,0.15,0.42,0,null);
+S(3.2,1.000,-0.064,0.416,1.143,0.09,0.32,0,null);
+
+/* 四 · 黑极  41-52 */
+S(3.6,1.006,-0.083,0.274,1.644,0.07,0.28,0,"fireflies");
+S(3.2,1.011,-0.123,0.262,1.576,0.05,0.26,0,null);
+S(3.4,1.016,-0.163,0.245,1.482,0.05,0.24,0,null);
+S(3.0,1.021,-0.200,0.229,1.379,0.05,0.22,0,"fireflies");
+S(3.4,1.026,-0.230,0.220,1.282,0.04,0.20,0,null);
+S(3.2,1.031,-0.248,0.219,1.207,0.04,0.19,0,null);
+S(3.6,1.036,-0.247,0.227,1.166,0.04,0.20,0,"geese");
+S(3.0,1.042,-0.224,0.242,1.165,0.04,0.18,0,null);
+S(3.4,1.047,-0.183,0.259,1.203,0.04,0.18,0,null);
+S(3.6,1.052,-0.132,0.273,1.277,0.04,0.19,0,"pagoda");
+S(3.2,1.057,-0.078,0.278,1.372,0.04,0.20,0,null);
+S(3.4,1.062,-0.028,0.274,1.475,0.05,0.22,0,null);
+
+/* 五 · 将晓  53-64 */
+S(3.6,1.068,0.031,0.337,0.912,0.08,0.30,1,null);
+S(3.4,1.080,0.110,0.325,0.869,0.11,0.34,1,null);
+S(3.2,1.091,0.192,0.314,0.821,0.14,0.38,1,null);
+S(3.6,1.103,0.273,0.308,0.776,0.15,0.40,1,"boat");
+S(3.4,1.115,0.343,0.310,0.742,0.15,0.40,1,null);
+S(3.2,1.126,0.393,0.317,0.723,0.15,0.40,1,null);
+S(3.6,1.138,0.414,0.329,0.722,0.15,0.40,1,"reeds");
+S(3.4,1.150,0.402,0.341,0.740,0.17,0.42,1,null);
+S(3.2,1.161,0.362,0.560,2.500,0.18,0.44,1,null);
+S(3.6,1.173,0.304,0.352,0.818,0.20,0.46,1,"reeds");
+S(3.4,1.185,0.236,0.347,0.866,0.21,0.48,1,null);
+S(3.2,1.196,0.163,0.337,0.909,0.23,0.50,1,null);
+
+/* 六 · 日出  65-78 */
+S(3.8,1.202,0.061,0.256,1.397,0.26,0.46,1,null);
+S(3.4,1.210,0.013,0.245,1.317,0.30,0.44,1,null);
+S(3.2,1.219,-0.041,0.239,1.239,0.36,0.42,1,null);
+S(3.6,1.227,-0.100,0.239,1.172,0.43,0.40,1,null);
+S(3.4,1.235,-0.158,0.245,1.125,0.47,0.38,1,"bird");
+S(3.2,1.243,-0.207,0.256,1.102,0.50,0.36,1,"geese");
+S(3.8,1.252,-0.241,0.269,1.106,0.50,0.36,1,null);
+S(3.4,1.260,-0.256,0.282,1.136,0.47,0.38,1,"geese");
+S(3.2,1.268,-0.252,0.291,1.190,0.44,0.40,1,null);
+S(3.6,1.277,-0.233,0.294,1.260,0.43,0.42,1,null);
+S(3.4,1.285,-0.202,0.291,1.340,0.41,0.42,1,null);
+S(3.2,1.293,-0.165,0.282,1.420,0.40,0.44,1,"boat");
+S(3.6,1.302,-0.125,0.269,1.490,0.38,0.46,1,null);
+S(3.4,1.310,-0.083,0.256,1.544,0.36,0.46,1,null);
+
+/* 七 · 晨  79-90 */
+S(3.6,1.316,-0.039,0.402,1.585,0.35,0.46,1,null);
+S(3.2,1.327,0.004,0.398,1.503,0.35,0.46,1,null);
+S(3.4,1.338,0.052,0.405,1.440,0.36,0.44,1,null);
+S(3.6,1.349,0.099,0.420,1.405,0.38,0.42,1,"bird");
+S(3.2,1.360,0.139,0.439,1.404,0.40,0.40,1,null);
+S(3.4,1.371,0.169,0.456,1.437,0.40,0.38,1,null);
+S(3.6,1.382,0.184,0.465,1.499,0.38,0.40,1,"reeds");
+S(3.0,1.393,0.187,0.464,1.580,0.36,0.40,1,null);
+S(3.4,1.403,0.180,0.453,1.667,0.35,0.38,1,"person");
+S(3.6,1.414,0.165,0.435,1.747,0.35,0.38,1,null);
+S(3.2,1.425,0.144,0.416,1.807,0.36,0.38,1,"reeds");
+S(3.4,1.436,0.120,0.402,1.837,0.38,0.36,1,null);
+
+/* 八 · 午  91-102 */
+S(3.6,1.442,0.158,0.518,1.055,0.41,0.34,1,null);
+S(3.2,1.454,0.105,0.530,1.009,0.44,0.32,1,null);
+S(3.4,1.466,0.040,0.554,0.984,0.46,0.30,1,"pavilion");
+S(3.6,1.478,-0.030,0.581,0.983,0.47,0.28,1,null);
+S(3.2,1.490,-0.096,0.603,1.007,0.49,0.26,1,null);
+S(3.4,1.502,-0.151,0.613,1.052,0.47,0.26,1,"boat");
+S(3.6,1.514,-0.192,0.608,1.111,0.46,0.28,1,null);
+S(3.4,1.526,-0.218,0.589,1.174,0.44,0.30,1,"geese");
+S(3.2,1.538,-0.231,0.605,3.000,0.43,0.30,1,null);
+S(3.6,1.550,-0.234,0.537,1.276,0.43,0.30,1,"reeds");
+S(3.4,1.562,-0.229,0.520,1.298,0.41,0.32,1,null);
+S(3.2,1.574,-0.216,0.518,1.295,0.40,0.32,1,null);
+
+/* 九 · 暮归  103-110 */
+S(3.8,1.580,-0.303,0.324,0.818,0.41,0.32,1,null);
+S(3.4,1.605,-0.254,0.343,0.800,0.44,0.32,1,"geese");
+S(3.6,1.630,-0.179,0.358,0.820,0.47,0.34,1,null);
+S(3.2,1.655,-0.096,0.358,0.871,0.49,0.36,1,"geese");
+S(3.4,1.681,-0.017,0.343,0.932,0.47,0.38,1,null);
+S(3.6,1.706,0.054,0.324,0.982,0.44,0.40,1,"boat");
+S(3.4,1.731,0.119,0.316,1.000,0.41,0.42,1,null);
+S(4.6,1.756,0.182,0.324,0.980,0.38,0.44,1,"person");
+
+/* ---------------- 章 ---------------- */
+var CHAPTERS = [
+  { name:"一 · 夜起", en:"Nightfall",      from:0,  to:13  },
+  { name:"二 · 水深", en:"Deep Water",     from:14, to:27  },
+  { name:"三 · 雾生", en:"The Fog",        from:28, to:39  },
+  { name:"四 · 黑极", en:"Utter Dark",     from:40, to:51  },
+  { name:"五 · 将晓", en:"Before Dawn",    from:52, to:63  },
+  { name:"六 · 日出", en:"Sunrise",        from:64, to:77  },
+  { name:"七 · 晨",   en:"Morning",        from:78, to:89  },
+  { name:"八 · 午",   en:"Noon",           from:90, to:101 },
+  { name:"九 · 暮归", en:"Dusk",           from:102,to:109 }
+];
+
+var N = SHOTS.length;
+
+/* 章索引 → 幕 */
+var chapterOf = new Array(N);
+for(var c = 0; c < CHAPTERS.length; c++)
+  for(var k = CHAPTERS[c].from; k <= CHAPTERS[c].to; k++) chapterOf[k] = c;
+
+/* 剪辑节奏：原来每一幕都是三秒半，一秒不差，看着就"平"。
+   现在开头收住、黑极放快、日出停够、结尾拖长。 */
+(function shapeDurations(){
+  for(var i = 0; i < N; i++){
+    var ch = chapterOf[i];
+    var k = 1.0;
+    if(i === 0) k *= 1.55;
+    if(i === N - 1) k *= 1.62;
+    if(i === CHAPTERS[ch].from) k *= 1.16;
+    if(i === CHAPTERS[ch].to)   k *= 1.10;
+    if(ch === 3) k *= 0.84;        /* 黑极：别拖 */
+    if(ch === 5) k *= 1.14;        /* 日出：停住 */
+    if(ch === 8) k *= 1.16;        /* 暮归：收 */
+    SHOTS[i].d = Math.round(SHOTS[i].d * k * 10) / 10;
+  }
+})();
+
+/* 起始时间 */
+var starts = [], total = 0;
+for(var i = 0; i < N; i++){ starts.push(total); total += SHOTS[i].d; }
+
+/* ---------------- 天光查询 ---------------- */
+function lightAt(dayT){
+  var d = dayT;
+  while(d < 0) d += 1;
+  d = d % 1;
+  /* 表按 0..1.84 排，跨过 1 的用 1+d */
+  var q = d;
+  if(q < LIGHT[0][0]) q += 1;
+  if(dayT > 1.0 && dayT < 1.84) q = dayT;
+
+  var lo = 0, hi = LIGHT.length - 1;
+  while(lo < hi){
+    var mid = (lo + hi + 1) >> 1;
+    if(LIGHT[mid][0] <= q) lo = mid; else hi = mid - 1;
+  }
+  var A = LIGHT[lo], B = LIGHT[Math.min(LIGHT.length-1, lo+1)];
+  var span = Math.max(1e-5, B[0] - A[0]);
+  var f = ease(clamp((q - A[0]) / span, 0, 1));
+
+  var out = { zen:[0,0,0], mid:[0,0,0], hor:[0,0,0],
+              sunCol:[0,0,0], sunI:0, ambCol:[0,0,0], amb:0,
+              mtnCol:[0,0,0], star:0 };
+  function mix3(a,b){
+    return [ lerp(a[0],b[0],f), lerp(a[1],b[1],f), lerp(a[2],b[2],f) ];
+  }
+  out.zen    = mix3(A[1], B[1]);
+  out.mid    = mix3(A[2], B[2]);
+  out.hor    = mix3(A[3], B[3]);
+  out.sunCol = mix3(A[4], B[4]);
+  out.sunI   = lerp(A[5], B[5], f);
+  out.ambCol = mix3(A[6], B[6]);
+  out.amb    = lerp(A[7], B[7], f);
+  out.mtnCol = mix3(A[8], B[8]);
+  out.star   = lerp(A[9], B[9], f);
+  return out;
+}
+
+/* ---------------- DOM ---------------- */
+var canvas   = document.getElementById("dream");
+var actsHost = document.getElementById("acts");
+var chapEl   = document.getElementById("chapter");
+var chapCn   = chapEl.querySelector(".cn");
+var chapEn   = chapEl.querySelector(".en");
+var numEl    = document.getElementById("num");
+var numTxt   = numEl.querySelector("span");
+var hud      = document.getElementById("hud");
+var btn      = document.getElementById("btn");
+var bar      = document.getElementById("bar");
+var barMark  = bar.querySelector(".mark");
+var barDot   = bar.querySelector(".dot");
+var tcEl     = document.getElementById("tc");
+var sndEl    = document.getElementById("snd");
+var bgmEl    = document.getElementById("bgm");
+var introEl  = document.getElementById("intro");
+var outroEl  = document.getElementById("outro");
+var bootEl   = document.getElementById("boot");
+
+var params   = new URLSearchParams(location.search);
+var shotMode = params.has("shot");
+var bareMode = params.has("bare");
+var fixedAt  = params.has("t") ? parseFloat(params.get("t")) : null;
+var startPaused = params.has("paused") || shotMode;
+if(shotMode) document.body.classList.add("shot");
+if(bareMode) document.body.classList.add("bare");
+if(params.has("intro")) introEl.classList.add("show");
+
+var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* 诗句层 */
+var actEls = [];
+(function buildVerses(){
+  var frag = document.createDocumentFragment();
+  for(var i = 0; i < N; i++){
+    var d = document.createElement("div");
+    d.className = "act";
+    var vs = document.createElement("div");
+    vs.className = "verse";
+    for(var j = 0; j < V[i].length; j++){
+      var p = document.createElement("p");
+      p.textContent = V[i][j];
+      vs.appendChild(p);
+    }
+    d.appendChild(vs);
+    frag.appendChild(d);
+    actEls.push(d);
+  }
+  actsHost.appendChild(frag);
+})();
+
+/* 章刻度 */
+(function buildTicks(){
+  for(var c = 1; c < CHAPTERS.length; c++){
+    var t = document.createElement("div");
+    t.className = "tick";
+    t.style.left = (starts[CHAPTERS[c].from] / total * 100).toFixed(3) + "%";
+    bar.appendChild(t);
+  }
+})();
+
+/* ---------------- WebGL ---------------- */
+var gl = canvas.getContext("webgl", {
+  antialias:false, alpha:false, depth:false, stencil:false,
+  powerPreference:"high-performance", preserveDrawingBuffer:false
+});
+if(!gl){ document.body.classList.add("nogl"); return; }
+
+function compile(type, src){
+  var s = gl.createShader(type);
+  gl.shaderSource(s, src);
+  gl.compileShader(s);
+  if(!gl.getShaderParameter(s, gl.COMPILE_STATUS)){
+    console.error(gl.getShaderInfoLog(s));
+    return null;
+  }
+  return s;
+}
+var vsSrc = document.getElementById("vert").textContent.trim();
+var fsSrc = document.getElementById("frag").textContent.trim();
+var vsh = compile(gl.VERTEX_SHADER, vsSrc);
+var fsh = compile(gl.FRAGMENT_SHADER, fsSrc);
+if(!vsh || !fsh){ document.body.classList.add("nogl"); return; }
+
+var prog = gl.createProgram();
+gl.attachShader(prog, vsh);
+gl.attachShader(prog, fsh);
+gl.linkProgram(prog);
+if(!gl.getProgramParameter(prog, gl.LINK_STATUS)){
+  console.error(gl.getProgramInfoLog(prog));
+  document.body.classList.add("nogl");
+  return;
+}
+gl.useProgram(prog);
+
+var vbo = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, vbo);
+gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1, 3,-1, -1,3]), gl.STATIC_DRAW);
+var aPos = gl.getAttribLocation(prog, "a_pos");
+gl.enableVertexAttribArray(aPos);
+gl.vertexAttribPointer(aPos, 2, gl.FLOAT, false, 0, 0);
+
+var U = {};
+["u_res","u_time","u_camX","u_horizon","u_zoom","u_rain","u_wind","u_pan","u_roll",
+ "u_skyZen","u_skyMid","u_skyHor","u_sunCol","u_sunI","u_ambCol","u_amb",
+ "u_sun","u_moon","u_moonI","u_star","u_cloud","u_fog","u_fogY",
+ "u_fogCol","u_mtnCol","u_mtnAmp","u_mtnLift","u_water","u_waterY",
+ "u_prop","u_propPos","u_propS","u_propA",
+ "u_mist","u_mistCol","u_vign","u_fade"
+].forEach(function(n){ U[n] = gl.getUniformLocation(prog, n); });
+
+/* ---------------- 尺寸 ---------------- */
+var quality = 1.0, maxPx = 2.35e6;
+
+function resize(){
+  var w = canvas.clientWidth, h = canvas.clientHeight;
+  if(!w || !h) return;
+  var fit = Math.min(1, Math.sqrt(maxPx / (w * h)));
+  var dpr = Math.min(window.devicePixelRatio || 1, 2) * fit * quality;
+  var pw = Math.max(1, Math.floor(w * dpr));
+  var ph = Math.max(1, Math.floor(h * dpr));
+  if(canvas.width !== pw || canvas.height !== ph){
+    canvas.width = pw;
+    canvas.height = ph;
+    gl.viewport(0, 0, pw, ph);
+  }
+  if(U.u_res) gl.uniform2f(U.u_res, canvas.width, canvas.height);
+  gl.clearColor(0, 0, 0, 1);
+  gl.clear(gl.COLOR_BUFFER_BIT);
+}
+
+/* ---------------- 播放状态 ---------------- */
+var clock = (fixedAt !== null) ? fixedAt : 0;
+var playing = !startPaused;
+var started = shotMode;
+var ended = false;
+
+var sm = { x:0, h:0.36, z:1.0, day:0.78, c:0.4, f:0.5, w:1, rain:0 };  /* 平滑器 */
+var smInit = false;
+
+function locate(t){
+  var lo = 0, hi = N - 1;
+  while(lo < hi){
+    var mid = (lo + hi + 1) >> 1;
+    if(starts[mid] <= t) lo = mid; else hi = mid - 1;
+  }
+  var f = clamp((t - starts[lo]) / Math.max(0.001, SHOTS[lo].d), 0, 1);
+  return { i: lo, f: f };
+}
+
+/* ---------------- 渲染 ---------------- */
+var t0 = performance.now();
+var last = t0;
+var raf = 0;
+var visible = true;
+var fpsFrames = 0, fpsMark = t0;
+
+var lastChapter = -1, chapterFade = 0;
+var lastAct = -1;
+
+document.addEventListener("visibilitychange", function(){
+  visible = !document.hidden;
+  if(visible){ last = performance.now(); raf = requestAnimationFrame(frame); }
+  else cancelAnimationFrame(raf);
+});
+
+function propPos(name, hz, waterY, camX, moonX){
+  var drift = camX || 0;
+  var mx = (moonX === undefined) ? 0.62 : moonX;
+  switch(name){
+    case "bird":      return [0.64 + drift * 0.5, 0.74, 1.0];
+    case "geese":     return [0.56 + drift * 0.4, 0.78, 1.0];
+    case "boat":      return [mx - 0.085, waterY + 0.034, 1.55];
+    /* 松枝压在月亮左侧，剪影才立得住 */
+    case "pine":      return [0.02, 1.02, 2.05];
+    /* 芦苇立在水线上，背后是天 */
+    case "reeds":     return [Math.max(0.14, Math.min(0.86, mx - 0.34 + drift * 0.3)), waterY - 0.004, 1.20];
+    case "pagoda":    return [0.70 - drift * 0.5, hz + 0.128, 1.55];
+    case "pavilion":  return [0.28 + drift * 0.6, hz + 0.066, 1.30];
+    case "fireflies": return [0.50 + drift * 0.5, waterY + 0.035, 1.0];
+    /* 人站在水边，最好背光；小到只有几粒像素 */
+    case "person":    return [mx + 0.004, waterY + 0.022, 0.0205];
+  }
+  return [0.5, 0.5, 1];
+}
+
+function frame(now){
+  raf = requestAnimationFrame(frame);
+  if(!visible) return;
+
+  var dt = Math.min(0.06, (now - last) / 1000);
+  last = now;
+
+  if(fixedAt !== null){
+    clock = fixedAt;
+  } else if(started && playing && !ended){
+    clock += dt;
+    if(clock >= total){ clock = total; ended = true; showOutro(); }
+  }
+
+  var loc = locate(clock);
+  var i = loc.i, f = loc.f;
+  var A = SHOTS[i];
+  var B = SHOTS[Math.min(N - 1, i + 1)];
+
+  var e = ease(f);
+  var tx = lerp(A.x, B.x, e);
+  var th = lerp(A.h, B.h, e);
+  var tz = lerp(A.z, B.z, e);
+  var tday = lerp(A.t, B.t, e);
+  var tc   = lerp(A.c, B.c, e);
+  var tf   = lerp(A.f, B.f, e);
+  var tw   = lerp(A.w, B.w, e);
+
+  if(!smInit){
+    sm.x = tx; sm.h = th; sm.z = tz; sm.day = tday;
+    sm.c = tc; sm.f = tf; sm.w = tw; smInit = true;
+  } else {
+    var k = 1 - Math.exp(-dt * 7.0);
+    sm.x   += (tx   - sm.x)   * k;
+    sm.h   += (th   - sm.h)   * k;
+    sm.z   += (tz   - sm.z)   * k;
+    sm.day += (tday - sm.day) * k;
+    sm.c   += (tc   - sm.c)   * k;
+    sm.f   += (tf   - sm.f)   * k;
+    sm.w   += (tw   - sm.w)   * k;
+  }
+
+  var L = lightAt(sm.day);
+
+  /* 日月位置：一条连续的弧 */
+  var dnorm = ((sm.day % 1) + 1) % 1;
+  var sunAng = TAU * (dnorm - 0.25);
+  var sunAlt = Math.sin(sunAng);
+  var sunX   = 0.5 + 0.32 * Math.cos(sunAng);
+
+  var mAng = TAU * (dnorm - 0.75);
+  var mAlt = Math.sin(mAng);
+  var mX   = 0.5 + 0.32 * Math.cos(mAng);
+
+  var sunR = 0.032;
+  var moonR = 0.0395;
+
+  /* 高度只由天球角决定：镜头怎么动，日月都按自己的轨迹走 */
+  var sunY  = 0.405 + sunAlt * 0.455;
+  var moonY = 0.428 + mAlt  * 0.500;
+
+  var moonI = clamp(mAlt * 2.6 + 0.10, 0, 1);
+  moonI *= (1 - clamp(sunAlt * 3.0, 0, 0.94));
+  moonI *= 0.94;
+
+  var chNow = chapterOf[i];
+
+  /* 两场雨：雾生里一场薄的，晨末到午初一场像样的 */
+  var rainAmt = 0;
+  if(i >= 29 && i <= 40){
+    rainAmt = Math.max(rainAmt, Math.sin((i - 29) / 11 * Math.PI) * 0.42);
+  }
+  if(i >= 83 && i <= 97){
+    rainAmt = Math.max(rainAmt, Math.sin((i - 83) / 14 * Math.PI) * 0.82);
+  }
+  /* 平滑，别让雨突然开始 */
+  if(!smInit) sm.rain = rainAmt;
+  sm.rain += (rainAmt - (sm.rain || 0)) * (1 - Math.exp(-dt * 2.2));
+  var rain = sm.rain;
+
+  /* 山不再自己升降 —— 抬升交给镜头俯仰(u_horizon)，山的形状交给 u_mtnAmp */
+  var mtnAmp = 1.0;
+
+  /* 摇：几个互质周期的慢正弦叠起来，永不重复，也不会卡在端点 */
+  var pan = 0.215 * Math.sin(clock * 0.0405)
+          + 0.082 * Math.sin(clock * 0.0151 + 1.9)
+          + 0.034 * Math.sin(clock * 0.0097 + 4.1);
+
+  /* 移：横向平移，产生视差（近山动得多，远山几乎不动） */
+  var dolly = 0.320 * Math.sin(clock * 0.0212 + 0.7)
+            + 0.115 * Math.sin(clock * 0.0471 + 2.1);
+
+  /* 推拉：焦距缓慢呼吸 */
+  var zDrift = 1.0
+             + 0.125 * Math.sin(clock * 0.0251 + 0.8)
+             + 0.038 * Math.sin(clock * 0.0913 + 1.4);
+
+  /* 侧倾：不到半度，只是让画面"活" */
+  var roll = 0.0052 * Math.sin(clock * 0.0131 + 2.4);
+
+  /* 风：几个周期叠起来，像阵风，不是匀速吹 */
+  var wind = 0.55 * Math.sin(clock * 0.44)
+           + 0.28 * Math.sin(clock * 1.31 + 1.7)
+           + 0.17 * Math.sin(clock * 0.19 + 4.2);
+
+  var waterY = sm.h - 0.055 - (1 - sm.w) * 0.62;
+  var fogY   = sm.h - 0.085;
+
+  /* 章节转场：章首 / 章尾的雾 */
+  var ch = chapterOf[i];
+  var mist = 0;
+  var isFirst = (i === CHAPTERS[ch].from);
+  var isLast  = (i === CHAPTERS[ch].to);
+  if(dt > 0){
+    if(isFirst && f < 0.30) mist = Math.max(mist, 1 - f / 0.30);
+    if(isLast  && f > 0.70) mist = Math.max(mist, (f - 0.70) / 0.30);
+  }
+  mist *= 0.94;
+
+  /* 外物 */
+  var propName = A.p;
+  var propCode = { pine:4, bird:1, boat:2, geese:3, reeds:5, pagoda:6, pavilion:7, fireflies:8, person:9 }[propName] || 0;
+  var pp = propPos(propName, sm.h, waterY, sm.x, mX);
+  var propA = 0;
+  if(propCode){
+    var prevSame = (i > 0) && (SHOTS[i - 1].p === propName);
+    var nextSame = (i < N - 1) && (SHOTS[i + 1].p === propName);
+    var aIn  = prevSame ? 1 : smoothstep(0.0, 0.17, f);
+    var aOut = nextSame ? 1 : smoothstep(0.0, 0.17, 1 - f);
+    propA = aIn * aOut;
+  }
+
+  /* 上传 */
+  gl.uniform1f(U.u_time, clock);
+  gl.uniform1f(U.u_camX, dolly);
+  gl.uniform1f(U.u_horizon, sm.h);
+  gl.uniform1f(U.u_zoom, sm.z * zDrift);
+  gl.uniform1f(U.u_pan, pan);
+  gl.uniform1f(U.u_roll, roll);
+  gl.uniform1f(U.u_wind, wind);
+
+  gl.uniform3fv(U.u_skyZen, L.zen);
+  gl.uniform3fv(U.u_skyMid, L.mid);
+  gl.uniform3fv(U.u_skyHor, L.hor);
+  gl.uniform3fv(U.u_sunCol, L.sunCol);
+  gl.uniform1f(U.u_sunI, L.sunI * (1.0 - rain * 0.78));
+  gl.uniform3fv(U.u_ambCol, L.ambCol);
+  gl.uniform1f(U.u_amb, L.amb);
+
+  gl.uniform4f(U.u_sun, sunX, sunY, sunAlt, sunR);
+  gl.uniform4f(U.u_moon, mX, moonY, mAlt, moonR);
+  gl.uniform1f(U.u_moonI, moonI * 0.96);
+  gl.uniform1f(U.u_star, L.star);
+
+  gl.uniform1f(U.u_rain, rain);
+  gl.uniform1f(U.u_cloud, Math.min(1.0, sm.c + rain * 0.45));
+  gl.uniform1f(U.u_fog, sm.f * 0.62 + rain * 0.30);
+  gl.uniform1f(U.u_fogY, fogY);
+
+  gl.uniform3fv(U.u_fogCol, [
+    0.022 + L.hor[0] * 0.085 + L.zen[0] * 0.34 + L.mid[0] * 0.20,
+    0.029 + L.hor[1] * 0.100 + L.zen[1] * 0.36 + L.mid[1] * 0.21,
+    0.039 + L.hor[2] * 0.120 + L.zen[2] * 0.40 + L.mid[2] * 0.22
+  ]);
+  gl.uniform3fv(U.u_mtnCol, L.mtnCol);
+  gl.uniform1f(U.u_mtnAmp, mtnAmp);
+  gl.uniform1f(U.u_mtnLift, 0.0);
+
+  gl.uniform1f(U.u_water, 1.0);
+  gl.uniform1f(U.u_waterY, waterY);
+
+  gl.uniform1f(U.u_prop, propCode);
+  gl.uniform2f(U.u_propPos, pp[0], pp[1]);
+  gl.uniform1f(U.u_propS, pp[2]);
+  gl.uniform1f(U.u_propA, propA);
+
+  gl.uniform1f(U.u_mist, mist);
+  gl.uniform3fv(U.u_mistCol, [
+    0.040 + L.hor[0] * 0.34 + L.zen[0] * 0.22,
+    0.048 + L.hor[1] * 0.38 + L.zen[1] * 0.24,
+    0.058 + L.hor[2] * 0.42 + L.zen[2] * 0.28
+  ]);
+  gl.uniform1f(U.u_vign, 0.92);
+  gl.uniform1f(U.u_fade, 0);
+
+  gl.drawArrays(gl.TRIANGLES, 0, 3);
+
+  /* 文字 */
+  if(i !== lastAct || Math.abs(f - 0.5) < 0.5){
+    for(var kk = 0; kk < N; kk++){
+      var dd = Math.abs(clock - starts[kk]) / Math.max(0.001, SHOTS[kk].d);
+      if(dd > 2.2){
+        if(actEls[kk].style.opacity !== "0") actEls[kk].style.opacity = "0";
+      } else {
+        var op = 1 - smoothstep(0.30, 0.66, dd);
+        actEls[kk].style.opacity = op.toFixed(3);
+      }
+    }
+    lastAct = i;
+  }
+
+  /* 章名 */
+  if(ch !== lastChapter){
+    lastChapter = ch;
+    chapCn.textContent = CHAPTERS[ch].name;
+    chapEn.textContent = CHAPTERS[ch].en;
+    chapEl.style.opacity = "1";
+  }
+
+  /* 底部 */
+  var prog = total > 0 ? clock / total : 0;
+  barMark.style.width = (prog * 100).toFixed(2) + "%";
+  barDot.style.left = (prog * 100).toFixed(2) + "%";
+  var secs = Math.floor(clock);
+  tcEl.textContent = ("0" + Math.floor(secs / 60)).slice(-2) + ":" + ("0" + (secs % 60)).slice(-2);
+
+  numTxt.textContent =
+    ("00" + (i + 1)).slice(-3) + " / " + N;
+
+  /* 声音调度 */
+  pumpAudio(chNow, now, rain);
+  setRainLevel(rain);
+
+  /* FPS 自适应 */
+  fpsFrames++;
+  if(now - fpsMark > 1500){
+    var fps = fpsFrames * 1000 / (now - fpsMark);
+    if(fps < 40 && quality > 0.55){ quality -= 0.15; resize(); }
+    fpsFrames = 0; fpsMark = now;
+  }
+}
+
+/* ---------------- 声音：现场合成的古风拨弦 ----------------
+   D 羽调五声（D F G A C），Karplus 式的拨弦包络 + 长混响。
+   不引用任何外部音频文件，离线可用。                          */
+
+var AC = window.AudioContext || window.webkitAudioContext;
+var AU = { ctx:null, master:null, ready:false, on:false,
+           nextAt:0, idx:0, mi:0, lastPump:0, gain:0.32 };
+
+function makeImpulse(ctx, sec, decay){
+  var rate = ctx.sampleRate;
+  var len = Math.floor(rate * sec);
+  var buf = ctx.createBuffer(2, len, rate);
+  for(var c = 0; c < 2; c++){
+    var d = buf.getChannelData(c);
+    for(var i = 0; i < len; i++){
+      d[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / len, decay);
+    }
+  }
+  return buf;
+}
+
+function initAudio(){
+  if(AU.ready || !AC) return;
+  try{
+    var ctx = new AC();
+    AU.ctx = ctx;
+
+    var master = ctx.createGain();
+    master.gain.value = 0.0001;
+    master.connect(ctx.destination);
+
+    var conv = ctx.createConvolver();
+    conv.buffer = makeImpulse(ctx, 3.6, 2.7);
+    var wet = ctx.createGain();
+    wet.gain.value = 0.58;
+    master.connect(conv);
+    conv.connect(wet);
+    wet.connect(ctx.destination);
+
+    AU.master = master;
+    AU.ready = true;
+  }catch(e){ AU.ready = false; }
+}
+
+/* Karplus-Strong：一段噪声塞进环形延迟线，每绕一圈过一遍低通再衰减。
+   泛音是一圈一圈掉下去的 —— 这才是"拨"出来的声音，不是"合成"的。 */
+var KS_CACHE = {};
+var KS_COUNT = 0;
+
+function ksBuffer(freq, dur, bright){
+  var rate = AU.ctx.sampleRate;
+  var key = Math.round(freq) + "_" + Math.round(dur * 8) + "_" + Math.round(bright * 8);
+  if(KS_CACHE[key]) return KS_CACHE[key];
+
+  var len = Math.max(128, Math.floor(rate * dur));
+  var buf = AU.ctx.createBuffer(1, len, rate);
+  var d = buf.getChannelData(0);
+
+  var period = Math.max(2, Math.round(rate / freq));
+  var line = new Float32Array(period);
+
+  /* 激励：指甲触弦那一下 */
+  for(var i = 0; i < period; i++){
+    line[i] = (Math.random() * 2 - 1) * (1 - i / period * 0.55);
+  }
+
+  var idx = 0, prev = 0;
+  var lp = 0.44 + bright * 0.36;
+  var decay = 0.9958 - freq * 0.000017;
+  if(decay > 0.9978) decay = 0.9978;
+  if(decay < 0.9740) decay = 0.9740;
+
+  for(var m = 0; m < len; m++){
+    var cur = line[idx];
+    var f = cur * lp + prev * (1 - lp);
+    prev = f;
+    line[idx] = f * decay;
+    d[m] = cur;
+    idx++;
+    if(idx >= period) idx = 0;
+  }
+
+  if(KS_COUNT > 70){ KS_CACHE = {}; KS_COUNT = 0; }
+  KS_CACHE[key] = buf;
+  KS_COUNT++;
+  return buf;
+}
+
+function pluck(freq, t, dur, amp, bright){
+  var ctx = AU.ctx;
+  if(!ctx || !(freq > 20)) return;
+
+  var b = (bright === undefined) ? 0.55 : bright;
+  var buf = ksBuffer(freq, dur, b);
+
+  var src = ctx.createBufferSource();
+  src.buffer = buf;
+
+  var g = ctx.createGain();
+  g.gain.value = amp;
+  src.connect(g);
+  g.connect(AU.master);
+  src.start(t);
+  src.stop(t + dur + 0.06);
+
+  /* 吟猱：左手揉弦，一点点音高摆动 */
+  try{
+    var lfo = ctx.createOscillator();
+    lfo.type = "sine";
+    lfo.frequency.value = 4.4 + Math.random() * 1.7;
+    var lg = ctx.createGain();
+    lg.gain.value = 0.0032;
+    lfo.connect(lg);
+    lg.connect(src.playbackRate);
+    lfo.start(t);
+    lfo.stop(t + dur + 0.06);
+  }catch(e){}
+
+  /* 触弦噪声：极短，只为了让起音"利"一点 */
+  if(amp > 0.026){
+    var nlen = Math.max(16, Math.floor(ctx.sampleRate * 0.0065));
+    var nb = ctx.createBuffer(1, nlen, ctx.sampleRate);
+    var nd = nb.getChannelData(0);
+    for(var i = 0; i < nlen; i++){
+      nd[i] = (Math.random() * 2 - 1) * (1 - i / nlen);
+    }
+    var ns = ctx.createBufferSource();
+    ns.buffer = nb;
+    var hp = ctx.createBiquadFilter();
+    hp.type = "highpass";
+    hp.frequency.value = 2600;
+    var ng = ctx.createGain();
+    ng.gain.value = amp * 0.28;
+    ns.connect(hp); hp.connect(ng); ng.connect(AU.master);
+    ns.start(t);
+  }
+}
+
+function breath(freq, t, dur, amp){
+  var ctx = AU.ctx;
+  if(!ctx) return;
+  var o = ctx.createOscillator();
+  o.type = "sine";
+  o.frequency.value = freq;
+  var g = ctx.createGain();
+  g.gain.setValueAtTime(0.0001, t);
+  g.gain.linearRampToValueAtTime(amp, t + dur * 0.35);
+  g.gain.linearRampToValueAtTime(0.0001, t + dur);
+  o.connect(g);
+  g.connect(AU.master);
+  o.start(t); o.stop(t + dur + 0.05);
+}
+
+var SCALE = [0, 3, 5, 7, 10, 12, 15, 17, 19, 22];
+var ROOT_HZ = 146.83;   /* D3 */
+
+/* 九章九句。半音数，相对 D。
+   夜低回、日出上行、午回落、暮收束。 */
+var MOTIF = [
+  [0, 7, 5, 3],
+  [0, 5, 3, 7],
+  [5, 3, 0, 3],
+  [0, 3, 0, -2],
+  [3, 5, 7, 10],
+  [7, 10, 12, 15],
+  [12, 10, 7, 5],
+  [7, 5, 3, 0],
+  [3, 0, 3, 5]
+];
+
+var lastChirp = 0;
+function pumpAudio(chIdx, nowMs, rainAmt){
+  if(!AU.ready || !AU.on) return;
+  if(nowMs - AU.lastPump < 160) return;
+  AU.lastPump = nowMs;
+
+  var ctx = AU.ctx;
+  var now = ctx.currentTime;
+  if(AU.nextAt < now) AU.nextAt = now + 0.05;
+
+  while(AU.nextAt < now + 1.4){
+    /* 夜低、晨高、午后回落 */
+    var oct = 0;
+    if(chIdx === 5 || chIdx === 6) oct = 12;
+    else if(chIdx === 7) oct = 7;
+
+    var motif = MOTIF[Math.min(MOTIF.length - 1, Math.max(0, chIdx | 0))] || MOTIF[0];
+    var step = motif[AU.mi % motif.length];
+    AU.mi++;
+
+    var f = ROOT_HZ * Math.pow(2, (step + oct) / 12);
+    var dur = 2.4 + Math.random() * 1.3;
+
+    var bright = 0.34 + 0.10 * Math.min(8, Math.max(0, chIdx | 0));
+    pluck(f, AU.nextAt, dur, 0.052 + Math.random() * 0.020, bright);
+
+    /* 山谷回一声 */
+    pluck(f, AU.nextAt + 0.46, dur * 0.66, 0.017, bright);
+
+    /* 偶尔一个倚音 */
+    if(AU.mi % 5 === 3) pluck(f * 1.125, AU.nextAt + 0.30, 1.2, 0.014, bright + 0.10);
+
+    /* 每八音落一个根音 */
+    if(AU.mi % 8 === 1) breath(ROOT_HZ * 0.5, AU.nextAt, 11.0, 0.030);
+
+    /* 天亮、雨小的时候，才有人家的鸟 */
+    if(chIdx >= 4 && chIdx <= 8 && (rainAmt || 0) < 0.45 && AU.idx % 5 === 2){
+      chirpGroup(AU.nextAt + 0.4, 1700 + Math.random() * 1100, 2 + (AU.idx % 3));
+    }
+
+    AU.nextAt += 1.32 + Math.random() * 0.52;
+    AU.idx++;
+  }
+}
+
+function synthStart(){
+  initAudio();
+  if(!AU.ready) return;
+  try{
+    if(AU.ctx.state === "suspended") AU.ctx.resume();
+  }catch(e){}
+  AU.on = true;
+  var t = AU.ctx.currentTime;
+  AU.master.gain.cancelScheduledValues(t);
+  AU.master.gain.setTargetAtTime(AU.gain, t, 1.4);
+  AU.nextAt = t + 0.35;
+  AU.idx = 0;
+  AU.mi = 0;
+  initRain();
+  sndEl.classList.add("on");
+}
+
+/* 同目录有 bgm.mp3 就放它；没有就合成 */
+/* ---- 雨声：白噪声过带通，随雨量推子 ---- */
+var RAIN = { src:null, gain:null, ready:false };
+
+function initRain(){
+  if(RAIN.ready || !AU.ctx) return;
+  var ctx = AU.ctx;
+  var len = Math.floor(ctx.sampleRate * 3);
+  var buf = ctx.createBuffer(1, len, ctx.sampleRate);
+  var d = buf.getChannelData(0);
+  for(var i = 0; i < len; i++) d[i] = Math.random() * 2 - 1;
+
+  var src = ctx.createBufferSource();
+  src.buffer = buf; src.loop = true;
+
+  var hp = ctx.createBiquadFilter();
+  hp.type = "highpass"; hp.frequency.value = 620;
+
+  var lp = ctx.createBiquadFilter();
+  lp.type = "lowpass"; lp.frequency.value = 6400;
+
+  var g = ctx.createGain();
+  g.gain.value = 0.0001;
+
+  src.connect(hp); hp.connect(lp); lp.connect(g); g.connect(AU.master);
+  src.start();
+
+  RAIN = { src:src, gain:g, ready:true };
+}
+
+var rainShown = -1;
+function setRainLevel(v){
+  if(!RAIN.ready) return;
+  if(Math.abs(v - rainShown) < 0.02) return;
+  rainShown = v;
+  RAIN.gain.gain.setTargetAtTime(Math.max(0.0001, v * 0.18), AU.ctx.currentTime, 0.7);
+}
+
+/* ---- 鸟：两三声短促的上滑音 ---- */
+function chirpGroup(t, base, count){
+  var ctx = AU.ctx;
+  for(var i = 0; i < count; i++){
+    var tt = t + i * (0.052 + Math.random() * 0.03);
+    var f0 = base * (0.90 + Math.random() * 0.24);
+    var dur = 0.050 + Math.random() * 0.055;
+
+    var o = ctx.createOscillator();
+    o.type = "sine";
+    o.frequency.setValueAtTime(f0, tt);
+    o.frequency.exponentialRampToValueAtTime(f0 * 1.58, tt + dur * 0.35);
+    o.frequency.exponentialRampToValueAtTime(f0 * 0.90, tt + dur);
+
+    var g = ctx.createGain();
+    g.gain.setValueAtTime(0.0001, tt);
+    g.gain.exponentialRampToValueAtTime(0.030, tt + 0.006);
+    g.gain.exponentialRampToValueAtTime(0.0001, tt + dur);
+
+    o.connect(g); g.connect(AU.master);
+    o.start(tt); o.stop(tt + dur + 0.02);
+  }
+}
+
+function startAudio(){
+  if(bgmEl && bgmEl.getAttribute("src")){
+    var pr = null;
+    try{ pr = bgmEl.play(); }catch(e){ pr = null; }
+    if(pr && pr.then){
+      pr.then(function(){
+        bgmEl.volume = 0;
+        var t0 = performance.now();
+        function ramp(){
+          var k = Math.min(1, (performance.now() - t0) / 2600);
+          bgmEl.volume = 0.46 * k;
+          if(k < 1) requestAnimationFrame(ramp);
+        }
+        ramp();
+        sndEl.classList.add("on");
+      }).catch(function(){ synthStart(); });
+      return;
+    }
+  }
+  synthStart();
+}
+
+function stopAudio(){
+  if(bgmEl && !bgmEl.paused){
+    try{ bgmEl.pause(); }catch(e){}
+    sndEl.classList.remove("on");
+    return;
+  }
+  if(!AU.ready) return;
+  AU.on = false;
+  var t = AU.ctx.currentTime;
+  AU.master.gain.cancelScheduledValues(t);
+  AU.master.gain.setTargetAtTime(0.0001, t, 0.45);
+  sndEl.classList.remove("on");
+}
+
+function isAudioOn(){
+  return AU.on || (bgmEl && !bgmEl.paused);
+}
+
+function toggleAudio(){
+  if(isAudioOn()) stopAudio(); else startAudio();
+}
+
+/* ---------------- 交互 ---------------- */
+function setPlaying(p){
+  playing = p;
+  btn.classList.toggle("paused", !p);
+}
+setPlaying(playing);
+
+btn.addEventListener("click", function(ev){
+  ev.stopPropagation();
+  if(ended) return;
+  setPlaying(!playing);
+});
+
+canvas.addEventListener("click", function(){
+  if(performance.now() - audioStartedAt < 420) return;
+  if(!started || ended) return;
+  setPlaying(!playing);
+});
+
+function jumpTo(t){
+  clock = clamp(t, 0, total);
+  ended = false;
+  outroEl.classList.remove("show");
+  smInit = false;
+  started = true;
+}
+
+window.addEventListener("keydown", function(ev){
+  if(ev.key === " " || ev.key === "k"){
+    ev.preventDefault();
+    if(ended) return;
+    setPlaying(!playing);
+    return;
+  }
+  if(ev.key === "ArrowLeft" || ev.key === "ArrowRight"){
+    ev.preventDefault();
+    var i = locate(clock).i;
+    var j = i + (ev.key === "ArrowRight" ? 1 : -1);
+    j = Math.max(0, Math.min(N - 1, j));
+    jumpTo(starts[j] + 0.05);
+    return;
+  }
+  if(ev.key === "f" || ev.key === "F"){
+    if(document.fullscreenElement) document.exitFullscreen();
+    else if(document.documentElement.requestFullscreen) document.documentElement.requestFullscreen();
+  }
+});
+
+bar.addEventListener("click", function(ev){
+  var r = bar.getBoundingClientRect();
+  var p = clamp((ev.clientX - r.left) / r.width, 0, 1);
+  clock = p * total;
+  ended = false;
+  outroEl.classList.remove("show");
+  smInit = false;
+  started = true;
+});
+
+outroEl.querySelector(".again").addEventListener("click", function(ev){
+  ev.stopPropagation();
+  clock = 0;
+  ended = false;
+  smInit = false;
+  outroEl.classList.remove("show");
+  setPlaying(true);
+  started = true;
+});
+
+function showOutro(){
+  setPlaying(false);
+  outroEl.classList.add("show");
+  chapEl.style.opacity = "0";
+}
+
+/* 闲置隐光标 */
+var audioStartedAt = -1e9;
+window.addEventListener("pointerdown", function(ev){
+  /* 点声音图标本身不要顺手把声音开出来 */
+  if(sndEl && (ev.target === sndEl || sndEl.contains(ev.target))) return;
+  if(!isAudioOn()){ startAudio(); audioStartedAt = performance.now(); }
+}, { passive:true, capture:true });
+window.addEventListener("keydown", function(){
+  if(!AU.on){ startAudio(); audioStartedAt = performance.now(); }
+});
+
+sndEl.addEventListener("click", function(ev){
+  ev.stopPropagation();
+  toggleAudio();
+  audioStartedAt = performance.now();
+});
+
+var idleTimer = 0;
+function poke(){
+  document.body.classList.remove("hidecursor");
+  clearTimeout(idleTimer);
+  idleTimer = setTimeout(function(){
+    if(started && !ended) document.body.classList.add("hidecursor");
+  }, 2600);
+}
+window.addEventListener("pointermove", poke, { passive:true });
+
+/* ---------------- 启动 ---------------- */
+window.addEventListener("resize", resize, { passive:true });
+resize();
+
+if(reduce){
+  setPlaying(false);
+}
+
+if(shotMode){
+  started = true;
+  bootEl.classList.add("gone");
+  bootEl.style.display = "none";
+  hud.classList.add("on");
+  numEl.style.opacity = "1";
+  chapEl.style.transition = "none";
+  chapEl.style.opacity = "1";
+  /* 立即跑一帧 */
+  last = performance.now();
+  frame(performance.now());
+} else {
+  /* 片头序列 */
+  setTimeout(function(){ bootEl.classList.add("gone"); }, 120);
+  setTimeout(function(){ bootEl.style.display = "none"; }, 1500);
+  setTimeout(function(){ introEl.classList.add("show"); }, 700);
+  setTimeout(function(){
+    started = true;
+    hud.classList.add("on");
+    numEl.style.opacity = "1";
+  }, 2900);
+  setTimeout(function(){
+    introEl.classList.remove("show");
+    introEl.style.pointerEvents = "none";
+  }, 5200);
+}
+
+raf = requestAnimationFrame(frame);
+
+})();
+
+</script>
+</body>
+</html>
