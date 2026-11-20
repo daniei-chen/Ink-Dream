@@ -22,22 +22,21 @@
 <sub>CHAPTERS · 九章</sub>
 </div>
 
-<table>
-<tr>
-<td align="center" width="11%"><sub><b>一</b><br>夜起<br><i>Nightfall</i></sub></td>
-<td align="center" width="11%"><sub><b>二</b><br>水深<br><i>Deep Water</i></sub></td>
-<td align="center" width="11%"><sub><b>三</b><br>雾生<br><i>The Fog</i></sub></td>
-<td align="center" width="11%"><sub><b>四</b><br>黑极<br><i>Utter Dark</i></sub></td>
-<td align="center" width="11%"><sub><b>五</b><br>将晓<br><i>Before Dawn</i></sub></td>
-<td align="center" width="11%"><sub><b>六</b><br>日出<br><i>Sunrise</i></sub></td>
-<td align="center" width="11%"><sub><b>七</b><br>晨<br><i>Morning</i></sub></td>
-<td align="center" width="11%"><sub><b>八</b><br>午<br><i>Noon</i></sub></td>
-<td align="center" width="11%"><sub><b>九</b><br>暮归<br><i>Dusk</i></sub></td>
-</tr>
-</table>
+<sub>
+<b>一</b> 夜起 &#160;&#160; <b>二</b> 水深 &#160;&#160; <b>三</b> 雾生 &#160;&#160; <b>四</b> 黑极 &#160;&#160; <b>五</b> 将晓<br>
+<b>六</b> 日出 &#160;&#160; <b>七</b> 晨 &#160;&#160; <b>八</b> 午 &#160;&#160; <b>九</b> 暮归
+</sub>
 
 <div align="center">
 <sub>月出 &#8594; 中天 &#8594; 月落 &#8594; 日出 &#8594; 晨 &#8594; 午 &#8594; 暮</sub>
+</div>
+
+<br>
+
+<img src="assets/stills.png" alt="四幕：夜、黑极、日出、晨雨" width="100%">
+
+<div align="center">
+<sub>左上 夜 · 右上 黑极 · 左下 日出（月落与日出同时发生）· 右下 晨雨</sub>
 </div>
 
 <br>
