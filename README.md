@@ -29,7 +29,7 @@
 <sub>C H A P T E R S</sub>
 </div>
 
-<img src="assets/chapters.png" alt="九章：夜起、水深、雾生、黑极、将晓、日出、晨、午、暮归" width="88%">
+<img src="assets/chapters-v2.png" alt="九章：夜起、水深、雾生、黑极、将晓、日出、晨、午、暮归" width="88%">
 
 <table>
 <tr>
